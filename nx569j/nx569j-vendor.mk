@@ -552,6 +552,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -582,6 +584,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -757,6 +760,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \

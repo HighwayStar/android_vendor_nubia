@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_beautyshot_video_algorithm.so:system/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_dualcam_refocus.so:system/lib64/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
+    vendor/nubia/nx569j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
     vendor/nubia/nx569j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
     vendor/nubia/nx569j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
     vendor/nubia/nx569j/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
@@ -363,6 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \

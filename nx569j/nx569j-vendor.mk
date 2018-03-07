@@ -401,7 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/nubia/nx569j/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/nubia/nx569j/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/nubia/nx569j/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/nubia/nx569j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/nubia/nx569j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/nubia/nx569j/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \

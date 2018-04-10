@@ -91,6 +91,8 @@ special_mode_mask values:
       <ISPPreview>imx258_main_isp_snapshot</ISPPreview>
       <ISPSnapshot>imx258_main_isp_snapshot</ISPSnapshot>
       <ISPVideo>imx258_main_isp_default_video</ISPVideo>
+      <CPPPreview>imx258_main_cpp_preview</CPPPreview>
+      <CPPSnapshot>imx258_main_cpp_snapshot</CPPSnapshot>
       <CPPVideo>imx258_main_cpp_video</CPPVideo>
       <A3Preview>imx258_main_a3_zsl_preview</A3Preview>
       <A3Video>imx258_main_a3_zsl_video</A3Video>
@@ -100,15 +102,10 @@ special_mode_mask values:
       <ISPISO128Common>imx258_main_common_iso128</ISPISO128Common>
       <ISPISO128Snapshot>imx258_main_isp_iso128</ISPISO128Snapshot>
       <CPPMicrospur>imx258_main_cpp_microspur</CPPMicrospur>
-      <CPPFusionH>imx258_main_bu64297_cpp_snapshot_fusion_h</CPPFusionH>
-      <CPPFusionM>imx258_main_bu64297_cpp_snapshot_fusion_m</CPPFusionM>
       <CPPMFDenoise>imx258_main_cpp_mtf_denoise</CPPMFDenoise>
       <ISPCameraApp>imx258_main_snapshot_profession</ISPCameraApp>
       <CPPCameraApp>imx258_main_preview_cpp_profession</CPPCameraApp>
       <A3CameraApp>imx258_main_preview_profession</A3CameraApp>
-      <A3FusionPreview>imx258_main_bu64297_a3_fusion_mode_preview</A3FusionPreview>
-      <ISPFusionCommon>imx258_main_bu64297_fusion_mode_common</ISPFusionCommon>
-      <ISPFusionSnapshot>imx258_main_bu64297_isp_snapshot_fusion_mode</ISPFusionSnapshot>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
       <ISPPreview>imx258_main_isp_hfr_60</ISPPreview>
@@ -145,8 +142,6 @@ special_mode_mask values:
       <CPPISO128Snapshot>imx258_main_cpp_iso128_snapshot</CPPISO128Snapshot>
       <ISPISO128Common>imx258_main_common_iso128</ISPISO128Common>
       <ISPISO128Snapshot>imx258_main_isp_iso128</ISPISO128Snapshot>
-      <CPPLiveshot>imx258_main_cpp_liveshot</CPPLiveshot>
-      <CPPSnapshot>imx258_main_cpp_liveshot</CPPSnapshot>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="4">
       <ISPPreview>imx258_main_isp_video_4k</ISPPreview>
@@ -163,6 +158,7 @@ special_mode_mask values:
       <CPPISO128Snapshot>imx258_main_cpp_iso128_snapshot</CPPISO128Snapshot>
       <ISPISO128Common>imx258_main_common_iso128</ISPISO128Common>
       <ISPISO128Snapshot>imx258_main_isp_iso128</ISPISO128Snapshot>
+      <CPPSnapshot>imx258_main_cpp_liveshot</CPPSnapshot>
       <CPPLiveshot>imx258_main_cpp_liveshot</CPPLiveshot>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="5">
@@ -190,6 +186,7 @@ special_mode_mask values:
       <A3Preview>imx258_main_a3_zsl_preview_electfno</A3Preview>
       <A3Video>imx258_main_a3_zsl_preview_electfno</A3Video>
       <A3CameraApp>imx258_main_a3_electfno_hand</A3CameraApp>
+      <CPPPreview>imx258_main_cpp_snapshot_electfno</CPPPreview>
     </ChromatixName>
 	<ChromatixName sensor_resolution_index="8">
       <ISPPreview>imx258_main_isp_snapshot_slowshutter</ISPPreview>
@@ -268,15 +265,26 @@ special_mode_mask values:
       <ISPISO128Common>imx258_main_common_iso128</ISPISO128Common>
       <ISPISO128Snapshot>imx258_main_isp_iso128</ISPISO128Snapshot>
       <CPPMicrospur>imx258_main_cpp_microspur</CPPMicrospur>
-      <CPPFusionH>imx258_main_bu64297_cpp_snapshot_fusion_h</CPPFusionH>
-      <CPPFusionM>imx258_main_bu64297_cpp_snapshot_fusion_m</CPPFusionM>
       <CPPMFDenoise>imx258_main_cpp_mtf_denoise</CPPMFDenoise>
       <ISPCameraApp>imx258_main_snapshot_profession</ISPCameraApp>
       <CPPCameraApp>imx258_main_preview_cpp_profession</CPPCameraApp>
       <A3CameraApp>imx258_main_preview_profession</A3CameraApp>
-      <A3FusionPreview>imx258_main_bu64297_a3_fusion_mode_preview</A3FusionPreview>
-      <ISPFusionCommon>imx258_main_bu64297_fusion_mode_common</ISPFusionCommon>
-      <ISPFusionSnapshot>imx258_main_bu64297_isp_snapshot_fusion_mode</ISPFusionSnapshot>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="CLONE">
+      <ISPPreview>imx258_main_isp_snapshot</ISPPreview>
+      <ISPSnapshot>imx258_main_isp_snapshot</ISPSnapshot>
+      <ISPVideo>imx258_main_isp_default_video</ISPVideo>
+      <CPPPreview>imx258_main_cpp_preview_clone</CPPPreview>
+      <CPPSnapshot>imx258_main_cpp_snapshot_clone</CPPSnapshot>
+      <CPPVideo>imx258_main_cpp_video</CPPVideo>
+      <A3Preview>imx258_main_a3_zsl_preview</A3Preview>
+      <A3Video>imx258_main_a3_zsl_video</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="PANORAMA">
+      <ISPPreview>imx258_main_isp_panorama</ISPPreview>
+      <ISPSnapshot>imx258_main_isp_panorama</ISPSnapshot>
+      <CPPSnapshot>imx258_main_cpp_panorama</CPPSnapshot>
+      <A3Preview>imx258_main_a3_panorama</A3Preview>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib/libBuffer.so:system/lib/libBuffer.so \
     vendor/nubia/nx569j/proprietary/lib/libBurstProcessJni.so:system/lib/libBurstProcessJni.so \
     vendor/nubia/nx569j/proprietary/lib/libIndependenceUtil.so:system/lib/libIndependenceUtil.so \
-    vendor/nubia/nx569j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
-    vendor/nubia/nx569j/proprietary/lib/libNubiaxmptoolkit.so:system/lib/libNubiaxmptoolkit.so \
+    vendor/nubia/nx569j/proprietary/lib/libNubiaImageAlgorithmBSP.so:system/lib/libNubiaImageAlgorithmBSP.so \
+    vendor/nubia/nx569j/proprietary/lib/libNubiaImageAlgorithmCamera.so:system/lib/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx569j/proprietary/lib/libPrettyWaterMark.so:system/lib/libPrettyWaterMark.so \
     vendor/nubia/nx569j/proprietary/lib/libalColorMono.so:system/lib/libalColorMono.so \
     vendor/nubia/nx569j/proprietary/lib/libalDU_Utility.so:system/lib/libalDU_Utility.so \
@@ -65,9 +65,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/nubia/nx569j/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx569j/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
+    vendor/nubia/nx569j/proprietary/lib/libarcsoft_dualcam_low_light_shot.so:system/lib/libarcsoft_dualcam_low_light_shot.so \
     vendor/nubia/nx569j/proprietary/lib/libarcsoft_dualcam_refocus.so:system/lib/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx569j/proprietary/lib/libarcsoft_high_dynamic_range.so:system/lib/libarcsoft_high_dynamic_range.so \
-    vendor/nubia/nx569j/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+    vendor/nubia/nx569j/proprietary/lib/libarcsoft_low_light_shot.so:system/lib/libarcsoft_low_light_shot.so \
     vendor/nubia/nx569j/proprietary/lib/libarcsoft_picauto.so:system/lib/libarcsoft_picauto.so \
     vendor/nubia/nx569j/proprietary/lib/libbuffer_manager.so:system/lib/libbuffer_manager.so \
     vendor/nubia/nx569j/proprietary/lib/libdngcreator.so:system/lib/libdngcreator.so \
@@ -95,8 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
     vendor/nubia/nx569j/proprietary/lib64/libBurstProcessJni.so:system/lib64/libBurstProcessJni.so \
     vendor/nubia/nx569j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
-    vendor/nubia/nx569j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
-    vendor/nubia/nx569j/proprietary/lib64/libNubiaxmptoolkit.so:system/lib64/libNubiaxmptoolkit.so \
+    vendor/nubia/nx569j/proprietary/lib64/libNubiaImageAlgorithmBSP.so:system/lib64/libNubiaImageAlgorithmBSP.so \
+    vendor/nubia/nx569j/proprietary/lib64/libNubiaImageAlgorithmCamera.so:system/lib64/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx569j/proprietary/lib64/libPrettyWaterMark.so:system/lib64/libPrettyWaterMark.so \
     vendor/nubia/nx569j/proprietary/lib64/libalParseOTP.so:system/lib64/libalParseOTP.so \
     vendor/nubia/nx569j/proprietary/lib64/libalRnB.so:system/lib64/libalRnB.so \
@@ -105,8 +106,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_beautyshot.so:system/lib64/libarcsoft_beautyshot.so \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_beautyshot_image_algorithm.so:system/lib64/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_beautyshot_video_algorithm.so:system/lib64/libarcsoft_beautyshot_video_algorithm.so \
+    vendor/nubia/nx569j/proprietary/lib64/libarcsoft_dualcam_low_light_shot.so:system/lib64/libarcsoft_dualcam_low_light_shot.so \
     vendor/nubia/nx569j/proprietary/lib64/libarcsoft_dualcam_refocus.so:system/lib64/libarcsoft_dualcam_refocus.so \
-    vendor/nubia/nx569j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
+    vendor/nubia/nx569j/proprietary/lib64/libarcsoft_low_light_shot.so:system/lib64/libarcsoft_low_light_shot.so \
     vendor/nubia/nx569j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
     vendor/nubia/nx569j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
     vendor/nubia/nx569j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
@@ -224,7 +226,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_mtf_denoise.so:system/vendor/lib/libchromatix_imx258_main_cpp_mtf_denoise.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_panorama.so:system/vendor/lib/libchromatix_imx258_main_cpp_panorama.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_preview.so:system/vendor/lib/libchromatix_imx258_main_cpp_preview.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_preview_clone.so:system/vendor/lib/libchromatix_imx258_main_cpp_preview_clone.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot_clone.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot_clone.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot_electfno.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot_electfno.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot_lightdraw.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot_lightdraw.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_video.so:system/vendor/lib/libchromatix_imx258_main_cpp_video.so \
@@ -359,6 +363,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
@@ -373,7 +381,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so
+    vendor/nubia/nx569j/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so
 
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/bin/adsprpcd:system/bin/adsprpcd \

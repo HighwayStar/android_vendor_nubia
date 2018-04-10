@@ -100,9 +100,6 @@ special_mode_mask values:
       <ISPISO128Common>imx258_aux_common_iso128</ISPISO128Common>
       <ISPISO128Snapshot>imx258_aux_isp_iso128</ISPISO128Snapshot>
       <CPPMicrospur>imx258_aux_cpp_microspur</CPPMicrospur>
-      <A3FusionPreview>imx258_aux_bu64297_a3_fusion_mode_preview</A3FusionPreview>
-      <ISPFusionCommon>imx258_aux_bu64297_fusion_mode_common</ISPFusionCommon>
-      <ISPFusionSnapshot>imx258_aux_bu64297_isp_snapshot_fusion_mode</ISPFusionSnapshot>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
       <ISPPreview>imx258_aux_isp_hfr_60</ISPPreview>

@@ -30,9 +30,13 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx549j/proprietary/etc/firmware/nubia_tp_jdi_fw.img:system/etc/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx549j/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/nubia/nx549j/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/nubia/nx549j/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/nubia/nx549j/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/nubia/nx549j/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/nubia/nx549j/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/nubia/nx549j/proprietary/vendor/firmware/Generic_unsigned_70ms.ncd:system/vendor/firmware/Generic_unsigned_70ms.ncd \
+    vendor/nubia/nx549j/proprietary/vendor/firmware/Generic_unsigned_NVM.ncd:system/vendor/firmware/Generic_unsigned_NVM.ncd \
+    vendor/nubia/nx549j/proprietary/vendor/firmware/Generic_unsigned_SY.ncd:system/vendor/firmware/Generic_unsigned_SY.ncd \
     vendor/nubia/nx549j/proprietary/vendor/lib/libSonyIMX318PdafLibrary.so:system/vendor/lib/libSonyIMX318PdafLibrary.so \
     vendor/nubia/nx549j/proprietary/vendor/lib/libactuator_bu64297_nx549front.so:system/vendor/lib/libactuator_bu64297_nx549front.so \
     vendor/nubia/nx549j/proprietary/vendor/lib/libactuator_bu64297_nx549rear.so:system/vendor/lib/libactuator_bu64297_nx549rear.so \

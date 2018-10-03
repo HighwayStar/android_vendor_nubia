@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8953-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/nubia/msm8953-common/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/nubia/msm8953-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/nubia/msm8953-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-alarm.xml:system/vendor/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/nubia/msm8953-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/nubia/msm8953-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nubia/msm8953-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
@@ -58,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8953-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/nubia/msm8953-common/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/nubia/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/nubia/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/nubia/msm8953-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/nubia/msm8953-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/nubia/msm8953-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
@@ -81,9 +83,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8953-common/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/nubia/msm8953-common/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/nubia/msm8953-common/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
+    vendor/nubia/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/nubia/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/nubia/msm8953-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/nubia/msm8953-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/nubia/msm8953-common/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/nubia/msm8953-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -270,6 +274,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/nubia/msm8953-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
@@ -379,6 +384,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/nubia/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/nubia/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
@@ -402,4 +408,5 @@ PRODUCT_PACKAGES += \
     uceShimService \
     CNEService \
     qcrilmsgtunnel \
+    PowerOffAlarm \
     TimeService

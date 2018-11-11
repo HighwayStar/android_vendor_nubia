@@ -64,8 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8976-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/nubia/msm8976-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/nubia/msm8976-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/nubia/msm8976-common/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
-    vendor/nubia/msm8976-common/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
     vendor/nubia/msm8976-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/nubia/msm8976-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/nubia/msm8976-common/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \

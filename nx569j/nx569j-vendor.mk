@@ -30,16 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
     vendor/nubia/nx569j/proprietary/etc/firmware/SCTable.asb:system/etc/firmware/SCTable.asb \
     vendor/nubia/nx569j/proprietary/etc/firmware/TBM_D2.bin:system/etc/firmware/TBM_D2.bin \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/nubia/nx569j/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/nubia/nx569j/proprietary/etc/firmware/miniBoot.bin:system/etc/firmware/miniBoot.bin \
     vendor/nubia/nx569j/proprietary/etc/firmware/nubia_tp_jdi_fw.img:system/etc/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx569j/proprietary/etc/firmware/nubia_tp_ofilm_fw_ctcr.img:system/etc/firmware/nubia_tp_ofilm_fw_ctcr.img \

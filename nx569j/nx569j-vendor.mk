@@ -341,7 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/nubia/nx569j/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/nubia/nx569j/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/nubia/nx569j/proprietary/lib/libqvr_adsp_driver_stub.so:system/lib/libqvr_adsp_driver_stub.so \
     vendor/nubia/nx569j/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/nubia/nx569j/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/nubia/nx569j/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -513,6 +512,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \

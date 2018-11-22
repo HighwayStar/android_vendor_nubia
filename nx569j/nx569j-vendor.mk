@@ -135,7 +135,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_mtf_denoise.so:system/vendor/lib/libchromatix_imx258_main_cpp_mtf_denoise.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_panorama.so:system/vendor/lib/libchromatix_imx258_main_cpp_panorama.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_preview.so:system/vendor/lib/libchromatix_imx258_main_cpp_preview.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_preview_clone.so:system/vendor/lib/libchromatix_imx258_main_cpp_preview_clone.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot_clone.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot_clone.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot_electfno.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot_electfno.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_snapshot_lightdraw.so:system/vendor/lib/libchromatix_imx258_main_cpp_snapshot_lightdraw.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_imx258_main_cpp_video.so:system/vendor/lib/libchromatix_imx258_main_cpp_video.so \

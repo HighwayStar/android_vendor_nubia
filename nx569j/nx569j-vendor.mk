@@ -342,7 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/nubia/nx569j/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/nubia/nx569j/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/nubia/nx569j/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/nubia/nx569j/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/nubia/nx569j/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/nubia/nx569j/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -373,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/nubia/nx569j/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/nubia/nx569j/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
-    vendor/nubia/nx569j/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
     vendor/nubia/nx569j/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/nubia/nx569j/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/nubia/nx569j/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \

@@ -770,10 +770,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     libthermalclient \
     QtiTelephonyService \
-    ims \
     imssettings \
     CNEService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \

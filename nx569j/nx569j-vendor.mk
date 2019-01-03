@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -183,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/nubia/nx569j/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -302,12 +301,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/nubia/nx569j/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/nubia/nx569j/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/nubia/nx569j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/nubia/nx569j/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/nubia/nx569j/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
@@ -315,11 +311,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/nubia/nx569j/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/nubia/nx569j/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/nubia/nx569j/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/nubia/nx569j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/nubia/nx569j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/nubia/nx569j/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/nubia/nx569j/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/nubia/nx569j/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/nx569j/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/nubia/nx569j/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -372,7 +366,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/nubia/nx569j/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/nubia/nx569j/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/nubia/nx569j/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/nubia/nx569j/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/nubia/nx569j/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/nubia/nx569j/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
@@ -383,9 +376,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/lib64/libwfdcommonutils.so:system/lib64/libwfdcommonutils.so \
     vendor/nubia/nx569j/proprietary/lib64/libwfdconfigutils.so:system/lib64/libwfdconfigutils.so \
     vendor/nubia/nx569j/proprietary/lib64/libwfdmminterface.so:system/lib64/libwfdmminterface.so \
-    vendor/nubia/nx569j/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/nubia/nx569j/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/nubia/nx569j/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+    vendor/nubia/nx569j/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
+    vendor/nubia/nx569j/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
+    vendor/nubia/nx569j/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
+    vendor/nubia/nx569j/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/nubia/nx569j/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/nubia/nx569j/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/nubia/nx569j/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
@@ -396,7 +392,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/nubia/nx569j/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/nubia/nx569j/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
-    vendor/nubia/nx569j/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/nubia/nx569j/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:system/vendor/bin/hw/vendor.qti.gnss@2.0-service \
     vendor/nubia/nx569j/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/nubia/nx569j/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/nubia/nx569j/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
@@ -421,6 +417,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/nubia/nx569j/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/nubia/nx569j/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/nubia/nx569j/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/nubia/nx569j/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/nubia/nx569j/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/nubia/nx569j/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/nubia/nx569j/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -445,7 +443,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/nubia/nx569j/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
     vendor/nubia/nx569j/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/nubia/nx569j/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
+    vendor/nubia/nx569j/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@2.0-service.rc \
     vendor/nubia/nx569j/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/nubia/nx569j/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/nubia/nx569j/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
@@ -598,7 +596,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/hw/activity_recognition.msm8952.so:system/vendor/lib64/hw/activity_recognition.msm8952.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/hw/vulkan.msm8952.so:system/vendor/lib64/hw/vulkan.msm8952.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
@@ -631,7 +629,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -640,7 +637,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
@@ -674,8 +670,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -726,6 +722,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
@@ -742,7 +739,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:system/vendor/lib64/vendor.qti.gnss@1.1.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:system/vendor/lib64/vendor.qti.gnss@1.2.so \
+    vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:system/vendor/lib64/vendor.qti.gnss@2.0.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
@@ -765,12 +765,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     libthermalclient \
     libtime_genoff \
-    libloc_api_v02 \
     QtiTelephonyService \
     ims \
     imssettings \
     CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \

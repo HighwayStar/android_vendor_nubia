@@ -721,7 +721,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/nubia/nx569j/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/nubia/nx569j/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \

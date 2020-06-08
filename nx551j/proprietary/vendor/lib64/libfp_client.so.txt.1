@@ -1,5 +1,5 @@
 
-libfp_client.so:     file format elf64-littleaarch64
+libfp_client.so.1:     file format elf64-littleaarch64
 
 
 Disassembly of section .note.gnu.build-id:
@@ -19747,7 +19747,7 @@ Disassembly of section .text:
    13f54:	d65f03c0 	ret
 
 0000000000013f58 <_ZN13BpFingerPrint13enableKeyModeEii@@Base>:
-   13f58:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   13f58:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    13f5c:	2a0203e5 	mov	w5, w2
    13f60:	2a0103e4 	mov	w4, w1
    13f64:	910003fd 	mov	x29, sp
@@ -19766,12 +19766,12 @@ Disassembly of section .text:
    13f98:	f94002a6 	ldr	x6, [x21]
    13f9c:	aa0003f6 	mov	x22, x0
    13fa0:	52800060 	mov	w0, #0x3                   	// #3
-   13fa4:	f9008fa6 	str	x6, [x29,#280]
+   13fa4:	f9009fa6 	str	x6, [x29,#312]
    13fa8:	a90153f3 	stp	x19, x20, [sp,#16]
    13fac:	97ffef69 	bl	fd50 <__android_log_print@plt>
    13fb0:	910123b3 	add	x19, x29, #0x48
    13fb4:	aa1303e0 	mov	x0, x19
-   13fb8:	9102c3b4 	add	x20, x29, #0xb0
+   13fb8:	910303b4 	add	x20, x29, #0xc0
    13fbc:	97ffef11 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    13fc0:	aa1403e0 	mov	x0, x20
    13fc4:	97ffef0f 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -19803,7 +19803,7 @@ Disassembly of section .text:
    1402c:	97ffeef9 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14030:	aa1303e0 	mov	x0, x19
    14034:	97ffeef7 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14038:	f9408fa2 	ldr	x2, [x29,#280]
+   14038:	f9409fa2 	ldr	x2, [x29,#312]
    1403c:	2a1603e0 	mov	w0, w22
    14040:	f94002a1 	ldr	x1, [x21]
    14044:	eb01005f 	cmp	x2, x1
@@ -19811,12 +19811,12 @@ Disassembly of section .text:
    1404c:	a94153f3 	ldp	x19, x20, [sp,#16]
    14050:	a9425bf5 	ldp	x21, x22, [sp,#32]
    14054:	a94363f7 	ldp	x23, x24, [sp,#48]
-   14058:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   14058:	a8d47bfd 	ldp	x29, x30, [sp],#320
    1405c:	d65f03c0 	ret
    14060:	97ffef1c 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014064 <_ZN13BpFingerPrint19getIndexByfeatureIdEi@@Base>:
-   14064:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   14064:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    14068:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    1406c:	2a0103e4 	mov	w4, w1
    14070:	910003fd 	mov	x29, sp
@@ -19834,12 +19834,12 @@ Disassembly of section .text:
    140a0:	aa0003f6 	mov	x22, x0
    140a4:	52800060 	mov	w0, #0x3                   	// #3
    140a8:	f94002a5 	ldr	x5, [x21]
-   140ac:	f9008fa5 	str	x5, [x29,#280]
+   140ac:	f9009fa5 	str	x5, [x29,#312]
    140b0:	a90153f3 	stp	x19, x20, [sp,#16]
    140b4:	97ffef27 	bl	fd50 <__android_log_print@plt>
    140b8:	910123b3 	add	x19, x29, #0x48
    140bc:	aa1303e0 	mov	x0, x19
-   140c0:	9102c3b4 	add	x20, x29, #0xb0
+   140c0:	910303b4 	add	x20, x29, #0xc0
    140c4:	97ffeecf 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    140c8:	aa1403e0 	mov	x0, x20
    140cc:	97ffeecd 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -19866,7 +19866,7 @@ Disassembly of section .text:
    14120:	97ffeebc 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14124:	aa1303e0 	mov	x0, x19
    14128:	97ffeeba 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   1412c:	f9408fa2 	ldr	x2, [x29,#280]
+   1412c:	f9409fa2 	ldr	x2, [x29,#312]
    14130:	2a1603e0 	mov	w0, w22
    14134:	f94002a1 	ldr	x1, [x21]
    14138:	eb01005f 	cmp	x2, x1
@@ -19874,12 +19874,12 @@ Disassembly of section .text:
    14140:	a94153f3 	ldp	x19, x20, [sp,#16]
    14144:	a9425bf5 	ldp	x21, x22, [sp,#32]
    14148:	f9401bf7 	ldr	x23, [sp,#48]
-   1414c:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   1414c:	a8d47bfd 	ldp	x29, x30, [sp],#320
    14150:	d65f03c0 	ret
    14154:	97ffeedf 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014158 <_ZN13BpFingerPrint9enableGscEi@@Base>:
-   14158:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   14158:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    1415c:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14160:	2a0103e4 	mov	w4, w1
    14164:	910003fd 	mov	x29, sp
@@ -19897,12 +19897,12 @@ Disassembly of section .text:
    14194:	aa0003f6 	mov	x22, x0
    14198:	52800060 	mov	w0, #0x3                   	// #3
    1419c:	f94002a5 	ldr	x5, [x21]
-   141a0:	f9008fa5 	str	x5, [x29,#280]
+   141a0:	f9009fa5 	str	x5, [x29,#312]
    141a4:	a90153f3 	stp	x19, x20, [sp,#16]
    141a8:	97ffeeea 	bl	fd50 <__android_log_print@plt>
    141ac:	910123b3 	add	x19, x29, #0x48
    141b0:	aa1303e0 	mov	x0, x19
-   141b4:	9102c3b4 	add	x20, x29, #0xb0
+   141b4:	910303b4 	add	x20, x29, #0xc0
    141b8:	97ffee92 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    141bc:	aa1403e0 	mov	x0, x20
    141c0:	97ffee90 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -19931,7 +19931,7 @@ Disassembly of section .text:
    1421c:	97ffee7d 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14220:	aa1303e0 	mov	x0, x19
    14224:	97ffee7b 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14228:	f9408fa2 	ldr	x2, [x29,#280]
+   14228:	f9409fa2 	ldr	x2, [x29,#312]
    1422c:	2a1603e0 	mov	w0, w22
    14230:	f94002a1 	ldr	x1, [x21]
    14234:	eb01005f 	cmp	x2, x1
@@ -19939,12 +19939,12 @@ Disassembly of section .text:
    1423c:	a94153f3 	ldp	x19, x20, [sp,#16]
    14240:	a9425bf5 	ldp	x21, x22, [sp,#32]
    14244:	f9401bf7 	ldr	x23, [sp,#48]
-   14248:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   14248:	a8d47bfd 	ldp	x29, x30, [sp],#320
    1424c:	d65f03c0 	ret
    14250:	97ffeea0 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014254 <_ZN13BpFingerPrint10disableNavEv@@Base>:
-   14254:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14254:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14258:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    1425c:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14260:	910003fd 	mov	x29, sp
@@ -19961,8 +19961,8 @@ Disassembly of section .text:
    1428c:	a90153f3 	stp	x19, x20, [sp,#16]
    14290:	f94002a4 	ldr	x4, [x21]
    14294:	9100e3b3 	add	x19, x29, #0x38
-   14298:	f90087a4 	str	x4, [x29,#264]
-   1429c:	910283b4 	add	x20, x29, #0xa0
+   14298:	f90097a4 	str	x4, [x29,#296]
+   1429c:	9102c3b4 	add	x20, x29, #0xb0
    142a0:	97ffeeac 	bl	fd50 <__android_log_print@plt>
    142a4:	aa1303e0 	mov	x0, x19
    142a8:	97ffee56 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -19988,19 +19988,19 @@ Disassembly of section .text:
    142f8:	97ffee46 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    142fc:	aa1303e0 	mov	x0, x19
    14300:	97ffee44 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14304:	f94087a2 	ldr	x2, [x29,#264]
+   14304:	f94097a2 	ldr	x2, [x29,#296]
    14308:	2a1603e0 	mov	w0, w22
    1430c:	f94002a1 	ldr	x1, [x21]
    14310:	eb01005f 	cmp	x2, x1
    14314:	540000a1 	b.ne	14328 <_ZN13BpFingerPrint10disableNavEv@@Base+0xd4>
    14318:	a94153f3 	ldp	x19, x20, [sp,#16]
    1431c:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   14320:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   14320:	a8d37bfd 	ldp	x29, x30, [sp],#304
    14324:	d65f03c0 	ret
    14328:	97ffee6a 	bl	fcd0 <__stack_chk_fail@plt>
 
 000000000001432c <_ZN13BpFingerPrint9enableNavEiii@@Base>:
-   1432c:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   1432c:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    14330:	910003fd 	mov	x29, sp
    14334:	a9025bf5 	stp	x21, x22, [sp,#32]
    14338:	d00001b5 	adrp	x21, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -20020,12 +20020,12 @@ Disassembly of section .text:
    14370:	91050021 	add	x1, x1, #0x140
    14374:	aa0003f6 	mov	x22, x0
    14378:	52800060 	mov	w0, #0x3                   	// #3
-   1437c:	f90097a4 	str	x4, [x29,#296]
+   1437c:	f900a7a4 	str	x4, [x29,#328]
    14380:	a90153f3 	stp	x19, x20, [sp,#16]
    14384:	97ffee73 	bl	fd50 <__android_log_print@plt>
    14388:	910163b3 	add	x19, x29, #0x58
    1438c:	aa1303e0 	mov	x0, x19
-   14390:	910303b4 	add	x20, x29, #0xc0
+   14390:	910343b4 	add	x20, x29, #0xd0
    14394:	97ffee1b 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    14398:	aa1403e0 	mov	x0, x20
    1439c:	97ffee19 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20058,7 +20058,7 @@ Disassembly of section .text:
    14408:	97ffee02 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    1440c:	aa1303e0 	mov	x0, x19
    14410:	97ffee00 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14414:	f94097a2 	ldr	x2, [x29,#296]
+   14414:	f940a7a2 	ldr	x2, [x29,#328]
    14418:	2a1603e0 	mov	w0, w22
    1441c:	f94002a1 	ldr	x1, [x21]
    14420:	eb01005f 	cmp	x2, x1
@@ -20067,12 +20067,12 @@ Disassembly of section .text:
    1442c:	a9425bf5 	ldp	x21, x22, [sp,#32]
    14430:	a94363f7 	ldp	x23, x24, [sp,#48]
    14434:	f94023f9 	ldr	x25, [sp,#64]
-   14438:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   14438:	a8d57bfd 	ldp	x29, x30, [sp],#336
    1443c:	d65f03c0 	ret
    14440:	97ffee24 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014444 <_ZN13BpFingerPrint17disableHbRetrieveEv@@Base>:
-   14444:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14444:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14448:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    1444c:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14450:	910003fd 	mov	x29, sp
@@ -20089,8 +20089,8 @@ Disassembly of section .text:
    1447c:	a90153f3 	stp	x19, x20, [sp,#16]
    14480:	f94002a4 	ldr	x4, [x21]
    14484:	9100e3b4 	add	x20, x29, #0x38
-   14488:	f90087a4 	str	x4, [x29,#264]
-   1448c:	910283b3 	add	x19, x29, #0xa0
+   14488:	f90097a4 	str	x4, [x29,#296]
+   1448c:	9102c3b3 	add	x19, x29, #0xb0
    14490:	97ffee30 	bl	fd50 <__android_log_print@plt>
    14494:	aa1403e0 	mov	x0, x20
    14498:	97ffedda 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20118,19 +20118,19 @@ Disassembly of section .text:
    144f0:	97ffedc8 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    144f4:	aa1403e0 	mov	x0, x20
    144f8:	97ffedc6 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   144fc:	f94087a2 	ldr	x2, [x29,#264]
+   144fc:	f94097a2 	ldr	x2, [x29,#296]
    14500:	2a1603e0 	mov	w0, w22
    14504:	f94002a1 	ldr	x1, [x21]
    14508:	eb01005f 	cmp	x2, x1
    1450c:	540000a1 	b.ne	14520 <_ZN13BpFingerPrint17disableHbRetrieveEv@@Base+0xdc>
    14510:	a94153f3 	ldp	x19, x20, [sp,#16]
    14514:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   14518:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   14518:	a8d37bfd 	ldp	x29, x30, [sp],#304
    1451c:	d65f03c0 	ret
    14520:	97ffedec 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014524 <_ZN13BpFingerPrint16enableHbRetrieveEv@@Base>:
-   14524:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14524:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14528:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    1452c:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14530:	910003fd 	mov	x29, sp
@@ -20147,8 +20147,8 @@ Disassembly of section .text:
    1455c:	a90153f3 	stp	x19, x20, [sp,#16]
    14560:	f94002a4 	ldr	x4, [x21]
    14564:	9100e3b4 	add	x20, x29, #0x38
-   14568:	f90087a4 	str	x4, [x29,#264]
-   1456c:	910283b3 	add	x19, x29, #0xa0
+   14568:	f90097a4 	str	x4, [x29,#296]
+   1456c:	9102c3b3 	add	x19, x29, #0xb0
    14570:	97ffedf8 	bl	fd50 <__android_log_print@plt>
    14574:	aa1403e0 	mov	x0, x20
    14578:	97ffeda2 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20176,19 +20176,19 @@ Disassembly of section .text:
    145d0:	97ffed90 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    145d4:	aa1403e0 	mov	x0, x20
    145d8:	97ffed8e 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   145dc:	f94087a2 	ldr	x2, [x29,#264]
+   145dc:	f94097a2 	ldr	x2, [x29,#296]
    145e0:	2a1603e0 	mov	w0, w22
    145e4:	f94002a1 	ldr	x1, [x21]
    145e8:	eb01005f 	cmp	x2, x1
    145ec:	540000a1 	b.ne	14600 <_ZN13BpFingerPrint16enableHbRetrieveEv@@Base+0xdc>
    145f0:	a94153f3 	ldp	x19, x20, [sp,#16]
    145f4:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   145f8:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   145f8:	a8d37bfd 	ldp	x29, x30, [sp],#304
    145fc:	d65f03c0 	ret
    14600:	97ffedb4 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014604 <_ZN13BpFingerPrint10driverTestEv@@Base>:
-   14604:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14604:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14608:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    1460c:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14610:	910003fd 	mov	x29, sp
@@ -20205,8 +20205,8 @@ Disassembly of section .text:
    1463c:	a90153f3 	stp	x19, x20, [sp,#16]
    14640:	f94002a4 	ldr	x4, [x21]
    14644:	9100e3b4 	add	x20, x29, #0x38
-   14648:	f90087a4 	str	x4, [x29,#264]
-   1464c:	910283b3 	add	x19, x29, #0xa0
+   14648:	f90097a4 	str	x4, [x29,#296]
+   1464c:	9102c3b3 	add	x19, x29, #0xb0
    14650:	97ffedc0 	bl	fd50 <__android_log_print@plt>
    14654:	aa1403e0 	mov	x0, x20
    14658:	97ffed6a 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20234,19 +20234,19 @@ Disassembly of section .text:
    146b0:	97ffed58 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    146b4:	aa1403e0 	mov	x0, x20
    146b8:	97ffed56 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   146bc:	f94087a2 	ldr	x2, [x29,#264]
+   146bc:	f94097a2 	ldr	x2, [x29,#296]
    146c0:	2a1603e0 	mov	w0, w22
    146c4:	f94002a1 	ldr	x1, [x21]
    146c8:	eb01005f 	cmp	x2, x1
    146cc:	540000a1 	b.ne	146e0 <_ZN13BpFingerPrint10driverTestEv@@Base+0xdc>
    146d0:	a94153f3 	ldp	x19, x20, [sp,#16]
    146d4:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   146d8:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   146d8:	a8d37bfd 	ldp	x29, x30, [sp],#304
    146dc:	d65f03c0 	ret
    146e0:	97ffed7c 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000146e4 <_ZN13BpFingerPrint21setPauseRegisterStateEi@@Base>:
-   146e4:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   146e4:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    146e8:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    146ec:	910003fd 	mov	x29, sp
    146f0:	a9025bf5 	stp	x21, x22, [sp,#32]
@@ -20266,12 +20266,12 @@ Disassembly of section .text:
    14728:	f90023f9 	str	x25, [sp,#64]
    1472c:	2a0103f9 	mov	w25, w1
    14730:	aa1703e1 	mov	x1, x23
-   14734:	f90097a4 	str	x4, [x29,#296]
+   14734:	f900a7a4 	str	x4, [x29,#328]
    14738:	a90153f3 	stp	x19, x20, [sp,#16]
    1473c:	97ffed85 	bl	fd50 <__android_log_print@plt>
    14740:	910163b3 	add	x19, x29, #0x58
    14744:	aa1303e0 	mov	x0, x19
-   14748:	910303b4 	add	x20, x29, #0xc0
+   14748:	910343b4 	add	x20, x29, #0xd0
    1474c:	97ffed2d 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    14750:	aa1403e0 	mov	x0, x20
    14754:	97ffed2b 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20307,7 +20307,7 @@ Disassembly of section .text:
    147cc:	97ffed11 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    147d0:	aa1303e0 	mov	x0, x19
    147d4:	97ffed0f 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   147d8:	f94097a2 	ldr	x2, [x29,#296]
+   147d8:	f940a7a2 	ldr	x2, [x29,#328]
    147dc:	2a1803e0 	mov	w0, w24
    147e0:	f94002c1 	ldr	x1, [x22]
    147e4:	eb01005f 	cmp	x2, x1
@@ -20316,12 +20316,12 @@ Disassembly of section .text:
    147f0:	a9425bf5 	ldp	x21, x22, [sp,#32]
    147f4:	a94363f7 	ldp	x23, x24, [sp,#48]
    147f8:	f94023f9 	ldr	x25, [sp,#64]
-   147fc:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   147fc:	a8d57bfd 	ldp	x29, x30, [sp],#336
    14800:	d65f03c0 	ret
    14804:	97ffed33 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014808 <_ZN13BpFingerPrint15cancelRecognizeEv@@Base>:
-   14808:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14808:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    1480c:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14810:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14814:	910003fd 	mov	x29, sp
@@ -20338,8 +20338,8 @@ Disassembly of section .text:
    14840:	a90153f3 	stp	x19, x20, [sp,#16]
    14844:	f94002a4 	ldr	x4, [x21]
    14848:	9100e3b4 	add	x20, x29, #0x38
-   1484c:	f90087a4 	str	x4, [x29,#264]
-   14850:	910283b3 	add	x19, x29, #0xa0
+   1484c:	f90097a4 	str	x4, [x29,#296]
+   14850:	9102c3b3 	add	x19, x29, #0xb0
    14854:	97ffed3f 	bl	fd50 <__android_log_print@plt>
    14858:	aa1403e0 	mov	x0, x20
    1485c:	97ffece9 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20367,19 +20367,19 @@ Disassembly of section .text:
    148b4:	97ffecd7 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    148b8:	aa1403e0 	mov	x0, x20
    148bc:	97ffecd5 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   148c0:	f94087a2 	ldr	x2, [x29,#264]
+   148c0:	f94097a2 	ldr	x2, [x29,#296]
    148c4:	2a1603e0 	mov	w0, w22
    148c8:	f94002a1 	ldr	x1, [x21]
    148cc:	eb01005f 	cmp	x2, x1
    148d0:	540000a1 	b.ne	148e4 <_ZN13BpFingerPrint15cancelRecognizeEv@@Base+0xdc>
    148d4:	a94153f3 	ldp	x19, x20, [sp,#16]
    148d8:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   148dc:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   148dc:	a8d37bfd 	ldp	x29, x30, [sp],#304
    148e0:	d65f03c0 	ret
    148e4:	97ffecfb 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000148e8 <_ZN13BpFingerPrint10saveRegistEi@@Base>:
-   148e8:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   148e8:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    148ec:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    148f0:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    148f4:	910003fd 	mov	x29, sp
@@ -20396,12 +20396,12 @@ Disassembly of section .text:
    14920:	aa0003f6 	mov	x22, x0
    14924:	52800060 	mov	w0, #0x3                   	// #3
    14928:	f94002a4 	ldr	x4, [x21]
-   1492c:	f9008fa4 	str	x4, [x29,#280]
+   1492c:	f9009fa4 	str	x4, [x29,#312]
    14930:	a90153f3 	stp	x19, x20, [sp,#16]
    14934:	97ffed07 	bl	fd50 <__android_log_print@plt>
    14938:	910123b3 	add	x19, x29, #0x48
    1493c:	aa1303e0 	mov	x0, x19
-   14940:	9102c3b4 	add	x20, x29, #0xb0
+   14940:	910303b4 	add	x20, x29, #0xc0
    14944:	97ffecaf 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    14948:	aa1403e0 	mov	x0, x20
    1494c:	97ffecad 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20430,7 +20430,7 @@ Disassembly of section .text:
    149a8:	97ffec9a 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    149ac:	aa1303e0 	mov	x0, x19
    149b0:	97ffec98 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   149b4:	f9408fa2 	ldr	x2, [x29,#280]
+   149b4:	f9409fa2 	ldr	x2, [x29,#312]
    149b8:	2a1603e0 	mov	w0, w22
    149bc:	f94002a1 	ldr	x1, [x21]
    149c0:	eb01005f 	cmp	x2, x1
@@ -20438,12 +20438,12 @@ Disassembly of section .text:
    149c8:	a94153f3 	ldp	x19, x20, [sp,#16]
    149cc:	a9425bf5 	ldp	x21, x22, [sp,#32]
    149d0:	f9401bf7 	ldr	x23, [sp,#48]
-   149d4:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   149d4:	a8d47bfd 	ldp	x29, x30, [sp],#320
    149d8:	d65f03c0 	ret
    149dc:	97ffecbd 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000149e0 <_ZN13BpFingerPrint8unRegistEi@@Base>:
-   149e0:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   149e0:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    149e4:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    149e8:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    149ec:	910003fd 	mov	x29, sp
@@ -20460,12 +20460,12 @@ Disassembly of section .text:
    14a18:	aa0003f6 	mov	x22, x0
    14a1c:	52800060 	mov	w0, #0x3                   	// #3
    14a20:	f94002a4 	ldr	x4, [x21]
-   14a24:	f9008fa4 	str	x4, [x29,#280]
+   14a24:	f9009fa4 	str	x4, [x29,#312]
    14a28:	a90153f3 	stp	x19, x20, [sp,#16]
    14a2c:	97ffecc9 	bl	fd50 <__android_log_print@plt>
    14a30:	910123b3 	add	x19, x29, #0x48
    14a34:	aa1303e0 	mov	x0, x19
-   14a38:	9102c3b4 	add	x20, x29, #0xb0
+   14a38:	910303b4 	add	x20, x29, #0xc0
    14a3c:	97ffec71 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    14a40:	aa1403e0 	mov	x0, x20
    14a44:	97ffec6f 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20494,7 +20494,7 @@ Disassembly of section .text:
    14aa0:	97ffec5c 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14aa4:	aa1303e0 	mov	x0, x19
    14aa8:	97ffec5a 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14aac:	f9408fa2 	ldr	x2, [x29,#280]
+   14aac:	f9409fa2 	ldr	x2, [x29,#312]
    14ab0:	2a1603e0 	mov	w0, w22
    14ab4:	f94002a1 	ldr	x1, [x21]
    14ab8:	eb01005f 	cmp	x2, x1
@@ -20502,12 +20502,12 @@ Disassembly of section .text:
    14ac0:	a94153f3 	ldp	x19, x20, [sp,#16]
    14ac4:	a9425bf5 	ldp	x21, x22, [sp,#32]
    14ac8:	f9401bf7 	ldr	x23, [sp,#48]
-   14acc:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   14acc:	a8d47bfd 	ldp	x29, x30, [sp],#320
    14ad0:	d65f03c0 	ret
    14ad4:	97ffec7f 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014ad8 <_ZN13BpFingerPrint11resetRegistEv@@Base>:
-   14ad8:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14ad8:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14adc:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14ae0:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14ae4:	910003fd 	mov	x29, sp
@@ -20524,8 +20524,8 @@ Disassembly of section .text:
    14b10:	a90153f3 	stp	x19, x20, [sp,#16]
    14b14:	f94002a4 	ldr	x4, [x21]
    14b18:	9100e3b4 	add	x20, x29, #0x38
-   14b1c:	f90087a4 	str	x4, [x29,#264]
-   14b20:	910283b3 	add	x19, x29, #0xa0
+   14b1c:	f90097a4 	str	x4, [x29,#296]
+   14b20:	9102c3b3 	add	x19, x29, #0xb0
    14b24:	97ffec8b 	bl	fd50 <__android_log_print@plt>
    14b28:	aa1403e0 	mov	x0, x20
    14b2c:	97ffec35 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20553,19 +20553,19 @@ Disassembly of section .text:
    14b84:	97ffec23 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14b88:	aa1403e0 	mov	x0, x20
    14b8c:	97ffec21 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14b90:	f94087a2 	ldr	x2, [x29,#264]
+   14b90:	f94097a2 	ldr	x2, [x29,#296]
    14b94:	2a1603e0 	mov	w0, w22
    14b98:	f94002a1 	ldr	x1, [x21]
    14b9c:	eb01005f 	cmp	x2, x1
    14ba0:	540000a1 	b.ne	14bb4 <_ZN13BpFingerPrint11resetRegistEv@@Base+0xdc>
    14ba4:	a94153f3 	ldp	x19, x20, [sp,#16]
    14ba8:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   14bac:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   14bac:	a8d37bfd 	ldp	x29, x30, [sp],#304
    14bb0:	d65f03c0 	ret
    14bb4:	97ffec47 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014bb8 <_ZN13BpFingerPrint14registRollbackEv@@Base>:
-   14bb8:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14bb8:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14bbc:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14bc0:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14bc4:	910003fd 	mov	x29, sp
@@ -20582,8 +20582,8 @@ Disassembly of section .text:
    14bf0:	a90153f3 	stp	x19, x20, [sp,#16]
    14bf4:	f94002a4 	ldr	x4, [x21]
    14bf8:	9100e3b4 	add	x20, x29, #0x38
-   14bfc:	f90087a4 	str	x4, [x29,#264]
-   14c00:	910283b3 	add	x19, x29, #0xa0
+   14bfc:	f90097a4 	str	x4, [x29,#296]
+   14c00:	9102c3b3 	add	x19, x29, #0xb0
    14c04:	97ffec53 	bl	fd50 <__android_log_print@plt>
    14c08:	aa1403e0 	mov	x0, x20
    14c0c:	97ffebfd 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20611,19 +20611,19 @@ Disassembly of section .text:
    14c64:	97ffebeb 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14c68:	aa1403e0 	mov	x0, x20
    14c6c:	97ffebe9 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14c70:	f94087a2 	ldr	x2, [x29,#264]
+   14c70:	f94097a2 	ldr	x2, [x29,#296]
    14c74:	2a1603e0 	mov	w0, w22
    14c78:	f94002a1 	ldr	x1, [x21]
    14c7c:	eb01005f 	cmp	x2, x1
    14c80:	540000a1 	b.ne	14c94 <_ZN13BpFingerPrint14registRollbackEv@@Base+0xdc>
    14c84:	a94153f3 	ldp	x19, x20, [sp,#16]
    14c88:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   14c8c:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   14c8c:	a8d37bfd 	ldp	x29, x30, [sp],#304
    14c90:	d65f03c0 	ret
    14c94:	97ffec0f 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014c98 <_ZN13BpFingerPrint12cancelRegistEv@@Base>:
-   14c98:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14c98:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14c9c:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14ca0:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14ca4:	910003fd 	mov	x29, sp
@@ -20640,8 +20640,8 @@ Disassembly of section .text:
    14cd0:	a90153f3 	stp	x19, x20, [sp,#16]
    14cd4:	f94002a4 	ldr	x4, [x21]
    14cd8:	9100e3b4 	add	x20, x29, #0x38
-   14cdc:	f90087a4 	str	x4, [x29,#264]
-   14ce0:	910283b3 	add	x19, x29, #0xa0
+   14cdc:	f90097a4 	str	x4, [x29,#296]
+   14ce0:	9102c3b3 	add	x19, x29, #0xb0
    14ce4:	97ffec1b 	bl	fd50 <__android_log_print@plt>
    14ce8:	aa1403e0 	mov	x0, x20
    14cec:	97ffebc5 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20669,19 +20669,19 @@ Disassembly of section .text:
    14d44:	97ffebb3 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14d48:	aa1403e0 	mov	x0, x20
    14d4c:	97ffebb1 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14d50:	f94087a2 	ldr	x2, [x29,#264]
+   14d50:	f94097a2 	ldr	x2, [x29,#296]
    14d54:	2a1603e0 	mov	w0, w22
    14d58:	f94002a1 	ldr	x1, [x21]
    14d5c:	eb01005f 	cmp	x2, x1
    14d60:	540000a1 	b.ne	14d74 <_ZN13BpFingerPrint12cancelRegistEv@@Base+0xdc>
    14d64:	a94153f3 	ldp	x19, x20, [sp,#16]
    14d68:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   14d6c:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   14d6c:	a8d37bfd 	ldp	x29, x30, [sp],#304
    14d70:	d65f03c0 	ret
    14d74:	97ffebd7 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014d78 <_ZN13BpFingerPrint6registEv@@Base>:
-   14d78:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14d78:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14d7c:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14d80:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14d84:	910003fd 	mov	x29, sp
@@ -20698,8 +20698,8 @@ Disassembly of section .text:
    14db0:	a90153f3 	stp	x19, x20, [sp,#16]
    14db4:	f94002a4 	ldr	x4, [x21]
    14db8:	9100e3b4 	add	x20, x29, #0x38
-   14dbc:	f90087a4 	str	x4, [x29,#264]
-   14dc0:	910283b3 	add	x19, x29, #0xa0
+   14dbc:	f90097a4 	str	x4, [x29,#296]
+   14dc0:	9102c3b3 	add	x19, x29, #0xb0
    14dc4:	97ffebe3 	bl	fd50 <__android_log_print@plt>
    14dc8:	aa1403e0 	mov	x0, x20
    14dcc:	97ffeb8d 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20727,19 +20727,19 @@ Disassembly of section .text:
    14e24:	97ffeb7b 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14e28:	aa1403e0 	mov	x0, x20
    14e2c:	97ffeb79 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14e30:	f94087a2 	ldr	x2, [x29,#264]
+   14e30:	f94097a2 	ldr	x2, [x29,#296]
    14e34:	2a1603e0 	mov	w0, w22
    14e38:	f94002a1 	ldr	x1, [x21]
    14e3c:	eb01005f 	cmp	x2, x1
    14e40:	540000a1 	b.ne	14e54 <_ZN13BpFingerPrint6registEv@@Base+0xdc>
    14e44:	a94153f3 	ldp	x19, x20, [sp,#16]
    14e48:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   14e4c:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   14e4c:	a8d37bfd 	ldp	x29, x30, [sp],#304
    14e50:	d65f03c0 	ret
    14e54:	97ffeb9f 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014e58 <_ZN13BpFingerPrint15sendScreenStateEi@@Base>:
-   14e58:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   14e58:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    14e5c:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14e60:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14e64:	910003fd 	mov	x29, sp
@@ -20756,12 +20756,12 @@ Disassembly of section .text:
    14e90:	aa0003f6 	mov	x22, x0
    14e94:	52800060 	mov	w0, #0x3                   	// #3
    14e98:	f94002a4 	ldr	x4, [x21]
-   14e9c:	f9008fa4 	str	x4, [x29,#280]
+   14e9c:	f9009fa4 	str	x4, [x29,#312]
    14ea0:	a90153f3 	stp	x19, x20, [sp,#16]
    14ea4:	97ffebab 	bl	fd50 <__android_log_print@plt>
    14ea8:	910123b3 	add	x19, x29, #0x48
    14eac:	aa1303e0 	mov	x0, x19
-   14eb0:	9102c3b4 	add	x20, x29, #0xb0
+   14eb0:	910303b4 	add	x20, x29, #0xc0
    14eb4:	97ffeb53 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    14eb8:	aa1403e0 	mov	x0, x20
    14ebc:	97ffeb51 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20790,7 +20790,7 @@ Disassembly of section .text:
    14f18:	97ffeb3e 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    14f1c:	aa1303e0 	mov	x0, x19
    14f20:	97ffeb3c 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   14f24:	f9408fa2 	ldr	x2, [x29,#280]
+   14f24:	f9409fa2 	ldr	x2, [x29,#312]
    14f28:	2a1603e0 	mov	w0, w22
    14f2c:	f94002a1 	ldr	x1, [x21]
    14f30:	eb01005f 	cmp	x2, x1
@@ -20798,12 +20798,12 @@ Disassembly of section .text:
    14f38:	a94153f3 	ldp	x19, x20, [sp,#16]
    14f3c:	a9425bf5 	ldp	x21, x22, [sp,#32]
    14f40:	f9401bf7 	ldr	x23, [sp,#48]
-   14f44:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   14f44:	a8d47bfd 	ldp	x29, x30, [sp],#320
    14f48:	d65f03c0 	ret
    14f4c:	97ffeb61 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000014f50 <_ZN13BpFingerPrint5queryEv@@Base>:
-   14f50:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   14f50:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    14f54:	b00000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    14f58:	d00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    14f5c:	910003fd 	mov	x29, sp
@@ -20820,8 +20820,8 @@ Disassembly of section .text:
    14f88:	a90153f3 	stp	x19, x20, [sp,#16]
    14f8c:	f94002a4 	ldr	x4, [x21]
    14f90:	9100e3b4 	add	x20, x29, #0x38
-   14f94:	f90087a4 	str	x4, [x29,#264]
-   14f98:	910283b3 	add	x19, x29, #0xa0
+   14f94:	f90097a4 	str	x4, [x29,#296]
+   14f98:	9102c3b3 	add	x19, x29, #0xb0
    14f9c:	97ffeb6d 	bl	fd50 <__android_log_print@plt>
    14fa0:	aa1403e0 	mov	x0, x20
    14fa4:	97ffeb17 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20849,19 +20849,19 @@ Disassembly of section .text:
    14ffc:	97ffeb05 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15000:	aa1403e0 	mov	x0, x20
    15004:	97ffeb03 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   15008:	f94087a2 	ldr	x2, [x29,#264]
+   15008:	f94097a2 	ldr	x2, [x29,#296]
    1500c:	2a1603e0 	mov	w0, w22
    15010:	f94002a1 	ldr	x1, [x21]
    15014:	eb01005f 	cmp	x2, x1
    15018:	540000a1 	b.ne	1502c <_ZN13BpFingerPrint5queryEv@@Base+0xdc>
    1501c:	a94153f3 	ldp	x19, x20, [sp,#16]
    15020:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   15024:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   15024:	a8d37bfd 	ldp	x29, x30, [sp],#304
    15028:	d65f03c0 	ret
    1502c:	97ffeb29 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015030 <_ZN13BpFingerPrint7setModeEi@@Base>:
-   15030:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   15030:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    15034:	900000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    15038:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    1503c:	910003fd 	mov	x29, sp
@@ -20878,12 +20878,12 @@ Disassembly of section .text:
    15068:	aa0003f6 	mov	x22, x0
    1506c:	52800060 	mov	w0, #0x3                   	// #3
    15070:	f94002a4 	ldr	x4, [x21]
-   15074:	f9008fa4 	str	x4, [x29,#280]
+   15074:	f9009fa4 	str	x4, [x29,#312]
    15078:	a90153f3 	stp	x19, x20, [sp,#16]
    1507c:	97ffeb35 	bl	fd50 <__android_log_print@plt>
    15080:	910123b3 	add	x19, x29, #0x48
    15084:	aa1303e0 	mov	x0, x19
-   15088:	9102c3b4 	add	x20, x29, #0xb0
+   15088:	910303b4 	add	x20, x29, #0xc0
    1508c:	97ffeadd 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    15090:	aa1403e0 	mov	x0, x20
    15094:	97ffeadb 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20912,7 +20912,7 @@ Disassembly of section .text:
    150f0:	97ffeac8 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    150f4:	aa1303e0 	mov	x0, x19
    150f8:	97ffeac6 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   150fc:	f9408fa2 	ldr	x2, [x29,#280]
+   150fc:	f9409fa2 	ldr	x2, [x29,#312]
    15100:	2a1603e0 	mov	w0, w22
    15104:	f94002a1 	ldr	x1, [x21]
    15108:	eb01005f 	cmp	x2, x1
@@ -20920,12 +20920,12 @@ Disassembly of section .text:
    15110:	a94153f3 	ldp	x19, x20, [sp,#16]
    15114:	a9425bf5 	ldp	x21, x22, [sp,#32]
    15118:	f9401bf7 	ldr	x23, [sp,#48]
-   1511c:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   1511c:	a8d47bfd 	ldp	x29, x30, [sp],#320
    15120:	d65f03c0 	ret
    15124:	97ffeaeb 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015128 <_ZN13BpFingerPrint10disconnectEv@@Base>:
-   15128:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   15128:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    1512c:	900000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    15130:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15134:	910003fd 	mov	x29, sp
@@ -20942,8 +20942,8 @@ Disassembly of section .text:
    15160:	a90153f3 	stp	x19, x20, [sp,#16]
    15164:	f94002a4 	ldr	x4, [x21]
    15168:	9100e3b4 	add	x20, x29, #0x38
-   1516c:	f90087a4 	str	x4, [x29,#264]
-   15170:	910283b3 	add	x19, x29, #0xa0
+   1516c:	f90097a4 	str	x4, [x29,#296]
+   15170:	9102c3b3 	add	x19, x29, #0xb0
    15174:	97ffeaf7 	bl	fd50 <__android_log_print@plt>
    15178:	aa1403e0 	mov	x0, x20
    1517c:	97ffeaa1 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -20971,19 +20971,19 @@ Disassembly of section .text:
    151d4:	97ffea8f 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    151d8:	aa1403e0 	mov	x0, x20
    151dc:	97ffea8d 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   151e0:	f94087a2 	ldr	x2, [x29,#264]
+   151e0:	f94097a2 	ldr	x2, [x29,#296]
    151e4:	2a1603e0 	mov	w0, w22
    151e8:	f94002a1 	ldr	x1, [x21]
    151ec:	eb01005f 	cmp	x2, x1
    151f0:	540000a1 	b.ne	15204 <_ZN13BpFingerPrint10disconnectEv@@Base+0xdc>
    151f4:	a94153f3 	ldp	x19, x20, [sp,#16]
    151f8:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   151fc:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   151fc:	a8d37bfd 	ldp	x29, x30, [sp],#304
    15200:	d65f03c0 	ret
    15204:	97ffeab3 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015208 <_ZN13BpFingerPrint13loadAllFpDataEPv@@Base>:
-   15208:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   15208:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    1520c:	910003fd 	mov	x29, sp
    15210:	a9025bf5 	stp	x21, x22, [sp,#32]
    15214:	b00001b5 	adrp	x21, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -20994,9 +20994,9 @@ Disassembly of section .text:
    15228:	f947beb5 	ldr	x21, [x21,#3960]
    1522c:	aa0003f6 	mov	x22, x0
    15230:	aa1403e0 	mov	x0, x20
-   15234:	9102c3b3 	add	x19, x29, #0xb0
+   15234:	910303b3 	add	x19, x29, #0xc0
    15238:	f94002a1 	ldr	x1, [x21]
-   1523c:	f9008fa1 	str	x1, [x29,#280]
+   1523c:	f9009fa1 	str	x1, [x29,#312]
    15240:	97ffea70 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    15244:	aa1303e0 	mov	x0, x19
    15248:	97ffea6e 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21025,7 +21025,7 @@ Disassembly of section .text:
    152a4:	97ffea5b 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    152a8:	aa1403e0 	mov	x0, x20
    152ac:	97ffea59 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   152b0:	f9408fa2 	ldr	x2, [x29,#280]
+   152b0:	f9409fa2 	ldr	x2, [x29,#312]
    152b4:	2a1603e0 	mov	w0, w22
    152b8:	f94002a1 	ldr	x1, [x21]
    152bc:	eb01005f 	cmp	x2, x1
@@ -21033,19 +21033,19 @@ Disassembly of section .text:
    152c4:	a94153f3 	ldp	x19, x20, [sp,#16]
    152c8:	a9425bf5 	ldp	x21, x22, [sp,#32]
    152cc:	f9401bf7 	ldr	x23, [sp,#48]
-   152d0:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   152d0:	a8d47bfd 	ldp	x29, x30, [sp],#320
    152d4:	d65f03c0 	ret
    152d8:	97ffea7e 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000152dc <_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_@@Base>:
-   152dc:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   152dc:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    152e0:	910003fd 	mov	x29, sp
    152e4:	a9025bf5 	stp	x21, x22, [sp,#32]
    152e8:	b00001b6 	adrp	x22, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
    152ec:	910163b5 	add	x21, x29, #0x58
    152f0:	a90153f3 	stp	x19, x20, [sp,#16]
    152f4:	900000d4 	adrp	x20, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
-   152f8:	910303b3 	add	x19, x29, #0xc0
+   152f8:	910343b3 	add	x19, x29, #0xd0
    152fc:	f947bec4 	ldr	x4, [x22,#3960]
    15300:	91328294 	add	x20, x20, #0xca0
    15304:	a90363f7 	stp	x23, x24, [sp,#48]
@@ -21062,7 +21062,7 @@ Disassembly of section .text:
    15330:	aa0103fa 	mov	x26, x1
    15334:	52800060 	mov	w0, #0x3                   	// #3
    15338:	aa1703e1 	mov	x1, x23
-   1533c:	f90097a4 	str	x4, [x29,#296]
+   1533c:	f900a7a4 	str	x4, [x29,#328]
    15340:	97ffea84 	bl	fd50 <__android_log_print@plt>
    15344:	aa1503e0 	mov	x0, x21
    15348:	97ffea2e 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21094,7 +21094,7 @@ Disassembly of section .text:
    153b0:	97ffea18 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    153b4:	f947bec1 	ldr	x1, [x22,#3960]
    153b8:	2a1803e0 	mov	w0, w24
-   153bc:	f94097a2 	ldr	x2, [x29,#296]
+   153bc:	f940a7a2 	ldr	x2, [x29,#328]
    153c0:	f9400021 	ldr	x1, [x1]
    153c4:	eb01005f 	cmp	x2, x1
    153c8:	54000301 	b.ne	15428 <_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_@@Base+0x14c>
@@ -21102,7 +21102,7 @@ Disassembly of section .text:
    153d0:	a9425bf5 	ldp	x21, x22, [sp,#32]
    153d4:	a94363f7 	ldp	x23, x24, [sp,#48]
    153d8:	a9446bf9 	ldp	x25, x26, [sp,#64]
-   153dc:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   153dc:	a8d57bfd 	ldp	x29, x30, [sp],#336
    153e0:	d65f03c0 	ret
    153e4:	aa1303e0 	mov	x0, x19
    153e8:	97ffea82 	bl	fdf0 <_ZNK7android6Parcel9readInt32Ev@plt>
@@ -21124,7 +21124,7 @@ Disassembly of section .text:
    15428:	97ffea2a 	bl	fcd0 <__stack_chk_fail@plt>
 
 000000000001542c <_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj@@Base>:
-   1542c:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
+   1542c:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
    15430:	910003fd 	mov	x29, sp
    15434:	a9025bf5 	stp	x21, x22, [sp,#32]
    15438:	b00001b5 	adrp	x21, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -21146,12 +21146,12 @@ Disassembly of section .text:
    15478:	52800060 	mov	w0, #0x3                   	// #3
    1547c:	f9002fa5 	str	x5, [x29,#88]
    15480:	aa0403f8 	mov	x24, x4
-   15484:	f9009fa6 	str	x6, [x29,#312]
+   15484:	f900afa6 	str	x6, [x29,#344]
    15488:	a90153f3 	stp	x19, x20, [sp,#16]
    1548c:	97ffea31 	bl	fd50 <__android_log_print@plt>
    15490:	9101a3b3 	add	x19, x29, #0x68
    15494:	aa1303e0 	mov	x0, x19
-   15498:	910343b4 	add	x20, x29, #0xd0
+   15498:	910383b4 	add	x20, x29, #0xe0
    1549c:	97ffe9d9 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    154a0:	aa1403e0 	mov	x0, x20
    154a4:	97ffe9d7 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21195,7 +21195,7 @@ Disassembly of section .text:
    1553c:	97ffe9b5 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15540:	aa1303e0 	mov	x0, x19
    15544:	97ffe9b3 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   15548:	f9409fa2 	ldr	x2, [x29,#312]
+   15548:	f940afa2 	ldr	x2, [x29,#344]
    1554c:	2a1603e0 	mov	w0, w22
    15550:	f94002a1 	ldr	x1, [x21]
    15554:	eb01005f 	cmp	x2, x1
@@ -21204,12 +21204,12 @@ Disassembly of section .text:
    15560:	a9425bf5 	ldp	x21, x22, [sp,#32]
    15564:	a94363f7 	ldp	x23, x24, [sp,#48]
    15568:	a9446bf9 	ldp	x25, x26, [sp,#64]
-   1556c:	a8d47bfd 	ldp	x29, x30, [sp],#320
+   1556c:	a8d67bfd 	ldp	x29, x30, [sp],#352
    15570:	d65f03c0 	ret
    15574:	97ffe9d7 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015578 <_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t@@Base>:
-   15578:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   15578:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    1557c:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15580:	910003fd 	mov	x29, sp
    15584:	a9025bf5 	stp	x21, x22, [sp,#32]
@@ -21230,9 +21230,9 @@ Disassembly of section .text:
    155c0:	aa0103f9 	mov	x25, x1
    155c4:	52800060 	mov	w0, #0x3                   	// #3
    155c8:	aa1703e1 	mov	x1, x23
-   155cc:	f90097a4 	str	x4, [x29,#296]
+   155cc:	f900a7a4 	str	x4, [x29,#328]
    155d0:	910163b3 	add	x19, x29, #0x58
-   155d4:	910303b5 	add	x21, x29, #0xc0
+   155d4:	910343b5 	add	x21, x29, #0xd0
    155d8:	97ffe9de 	bl	fd50 <__android_log_print@plt>
    155dc:	aa1303e0 	mov	x0, x19
    155e0:	97ffe988 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21276,7 +21276,7 @@ Disassembly of section .text:
    15678:	aa1303e0 	mov	x0, x19
    1567c:	97ffe965 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15680:	f947bed6 	ldr	x22, [x22,#3960]
-   15684:	f94097a2 	ldr	x2, [x29,#296]
+   15684:	f940a7a2 	ldr	x2, [x29,#328]
    15688:	2a1803e0 	mov	w0, w24
    1568c:	f94002c1 	ldr	x1, [x22]
    15690:	eb01005f 	cmp	x2, x1
@@ -21285,7 +21285,7 @@ Disassembly of section .text:
    1569c:	a9425bf5 	ldp	x21, x22, [sp,#32]
    156a0:	a94363f7 	ldp	x23, x24, [sp,#48]
    156a4:	f94023f9 	ldr	x25, [sp,#64]
-   156a8:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   156a8:	a8d57bfd 	ldp	x29, x30, [sp],#336
    156ac:	d65f03c0 	ret
    156b0:	aa1903e1 	mov	x1, x25
    156b4:	aa1503e0 	mov	x0, x21
@@ -21301,7 +21301,7 @@ Disassembly of section .text:
    156dc:	97ffe97d 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000156e0 <_ZN13BpFingerPrint14delFpTemplatesEPjj@@Base>:
-   156e0:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   156e0:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    156e4:	900000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    156e8:	910003fd 	mov	x29, sp
    156ec:	a9025bf5 	stp	x21, x22, [sp,#32]
@@ -21319,12 +21319,12 @@ Disassembly of section .text:
    1571c:	f94002a4 	ldr	x4, [x21]
    15720:	aa0003f6 	mov	x22, x0
    15724:	52800060 	mov	w0, #0x3                   	// #3
-   15728:	f9008fa4 	str	x4, [x29,#280]
+   15728:	f9009fa4 	str	x4, [x29,#312]
    1572c:	a90153f3 	stp	x19, x20, [sp,#16]
    15730:	97ffe988 	bl	fd50 <__android_log_print@plt>
    15734:	910123b3 	add	x19, x29, #0x48
    15738:	aa1303e0 	mov	x0, x19
-   1573c:	9102c3b4 	add	x20, x29, #0xb0
+   1573c:	910303b4 	add	x20, x29, #0xc0
    15740:	97ffe930 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    15744:	aa1403e0 	mov	x0, x20
    15748:	97ffe92e 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21357,7 +21357,7 @@ Disassembly of section .text:
    157b4:	97ffe917 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    157b8:	aa1303e0 	mov	x0, x19
    157bc:	97ffe915 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   157c0:	f9408fa2 	ldr	x2, [x29,#280]
+   157c0:	f9409fa2 	ldr	x2, [x29,#312]
    157c4:	2a1603e0 	mov	w0, w22
    157c8:	f94002a1 	ldr	x1, [x21]
    157cc:	eb01005f 	cmp	x2, x1
@@ -21365,12 +21365,12 @@ Disassembly of section .text:
    157d4:	a94153f3 	ldp	x19, x20, [sp,#16]
    157d8:	a9425bf5 	ldp	x21, x22, [sp,#32]
    157dc:	a94363f7 	ldp	x23, x24, [sp,#48]
-   157e0:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   157e0:	a8d47bfd 	ldp	x29, x30, [sp],#320
    157e4:	d65f03c0 	ret
    157e8:	97ffe93a 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000157ec <_ZN13BpFingerPrint11checkPasswdEPKc@@Base>:
-   157ec:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   157ec:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    157f0:	900000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    157f4:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    157f8:	910003fd 	mov	x29, sp
@@ -21387,12 +21387,12 @@ Disassembly of section .text:
    15824:	aa0003f6 	mov	x22, x0
    15828:	52800060 	mov	w0, #0x3                   	// #3
    1582c:	f94002a4 	ldr	x4, [x21]
-   15830:	f9008fa4 	str	x4, [x29,#280]
+   15830:	f9009fa4 	str	x4, [x29,#312]
    15834:	a90153f3 	stp	x19, x20, [sp,#16]
    15838:	97ffe946 	bl	fd50 <__android_log_print@plt>
    1583c:	910123b3 	add	x19, x29, #0x48
    15840:	aa1303e0 	mov	x0, x19
-   15844:	9102c3b4 	add	x20, x29, #0xb0
+   15844:	910303b4 	add	x20, x29, #0xc0
    15848:	97ffe8ee 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    1584c:	aa1403e0 	mov	x0, x20
    15850:	97ffe8ec 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21422,7 +21422,7 @@ Disassembly of section .text:
    158b0:	97ffe8d8 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    158b4:	aa1303e0 	mov	x0, x19
    158b8:	97ffe8d6 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   158bc:	f9408fa2 	ldr	x2, [x29,#280]
+   158bc:	f9409fa2 	ldr	x2, [x29,#312]
    158c0:	2a1603e0 	mov	w0, w22
    158c4:	f94002a1 	ldr	x1, [x21]
    158c8:	eb01005f 	cmp	x2, x1
@@ -21430,16 +21430,16 @@ Disassembly of section .text:
    158d0:	a94153f3 	ldp	x19, x20, [sp,#16]
    158d4:	a9425bf5 	ldp	x21, x22, [sp,#32]
    158d8:	f9401bf7 	ldr	x23, [sp,#48]
-   158dc:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   158dc:	a8d47bfd 	ldp	x29, x30, [sp],#320
    158e0:	d65f03c0 	ret
    158e4:	97ffe8fb 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000158e8 <_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i@@Base>:
-   158e8:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
+   158e8:	a9a97bfd 	stp	x29, x30, [sp,#-368]!
    158ec:	910003fd 	mov	x29, sp
    158f0:	a9025bf5 	stp	x21, x22, [sp,#32]
    158f4:	b00001b6 	adrp	x22, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
-   158f8:	910383b5 	add	x21, x29, #0xe0
+   158f8:	9103c3b5 	add	x21, x29, #0xf0
    158fc:	a90153f3 	stp	x19, x20, [sp,#16]
    15900:	900000d4 	adrp	x20, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    15904:	f90037a4 	str	x4, [x29,#104]
@@ -21462,7 +21462,7 @@ Disassembly of section .text:
    15948:	52800060 	mov	w0, #0x3                   	// #3
    1594c:	aa1703e1 	mov	x1, x23
    15950:	2a0503fa 	mov	w26, w5
-   15954:	f900a7a6 	str	x6, [x29,#328]
+   15954:	f900b7a6 	str	x6, [x29,#360]
    15958:	9101e3b3 	add	x19, x29, #0x78
    1595c:	97ffe8fd 	bl	fd50 <__android_log_print@plt>
    15960:	aa1303e0 	mov	x0, x19
@@ -21513,7 +21513,7 @@ Disassembly of section .text:
    15a14:	aa1303e0 	mov	x0, x19
    15a18:	97ffe87e 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15a1c:	f947bed6 	ldr	x22, [x22,#3960]
-   15a20:	f940a7a2 	ldr	x2, [x29,#328]
+   15a20:	f940b7a2 	ldr	x2, [x29,#360]
    15a24:	2a1403e0 	mov	w0, w20
    15a28:	f94002c1 	ldr	x1, [x22]
    15a2c:	eb01005f 	cmp	x2, x1
@@ -21523,7 +21523,7 @@ Disassembly of section .text:
    15a3c:	a94363f7 	ldp	x23, x24, [sp,#48]
    15a40:	a9446bf9 	ldp	x25, x26, [sp,#64]
    15a44:	a94573fb 	ldp	x27, x28, [sp,#80]
-   15a48:	a8d57bfd 	ldp	x29, x30, [sp],#336
+   15a48:	a8d77bfd 	ldp	x29, x30, [sp],#368
    15a4c:	d65f03c0 	ret
    15a50:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15a54:	aa1703e1 	mov	x1, x23
@@ -21542,7 +21542,7 @@ Disassembly of section .text:
    15a88:	97ffe892 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015a8c <_ZN13BpFingerPrint21recognizeWithRestrictEPjjj@@Base>:
-   15a8c:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
+   15a8c:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
    15a90:	910003fd 	mov	x29, sp
    15a94:	a9046bf9 	stp	x25, x26, [sp,#64]
    15a98:	b00001ba 	adrp	x26, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -21566,7 +21566,7 @@ Disassembly of section .text:
    15ae0:	aa1503e1 	mov	x1, x21
    15ae4:	aa1403e3 	mov	x3, x20
    15ae8:	52800060 	mov	w0, #0x3                   	// #3
-   15aec:	f9009fa4 	str	x4, [x29,#312]
+   15aec:	f900afa4 	str	x4, [x29,#344]
    15af0:	97ffe898 	bl	fd50 <__android_log_print@plt>
    15af4:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15af8:	52800060 	mov	w0, #0x3                   	// #3
@@ -21592,7 +21592,7 @@ Disassembly of section .text:
    15b48:	eb17027f 	cmp	x19, x23
    15b4c:	54fffee1 	b.ne	15b28 <_ZN13BpFingerPrint21recognizeWithRestrictEPjjj@@Base+0x9c>
    15b50:	9101a3b3 	add	x19, x29, #0x68
-   15b54:	910343b4 	add	x20, x29, #0xd0
+   15b54:	910383b4 	add	x20, x29, #0xe0
    15b58:	aa1303e0 	mov	x0, x19
    15b5c:	97ffe829 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    15b60:	aa1403e0 	mov	x0, x20
@@ -21630,7 +21630,7 @@ Disassembly of section .text:
    15be0:	aa1303e0 	mov	x0, x19
    15be4:	97ffe80b 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15be8:	f947bf5a 	ldr	x26, [x26,#3960]
-   15bec:	f9409fb3 	ldr	x19, [x29,#312]
+   15bec:	f940afb3 	ldr	x19, [x29,#344]
    15bf0:	2a1503e0 	mov	w0, w21
    15bf4:	f9400341 	ldr	x1, [x26]
    15bf8:	eb01027f 	cmp	x19, x1
@@ -21640,12 +21640,12 @@ Disassembly of section .text:
    15c08:	a94363f7 	ldp	x23, x24, [sp,#48]
    15c0c:	a9446bf9 	ldp	x25, x26, [sp,#64]
    15c10:	a94573fb 	ldp	x27, x28, [sp,#80]
-   15c14:	a8d47bfd 	ldp	x29, x30, [sp],#320
+   15c14:	a8d67bfd 	ldp	x29, x30, [sp],#352
    15c18:	d65f03c0 	ret
    15c1c:	97ffe82d 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015c20 <_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t@@Base>:
-   15c20:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   15c20:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    15c24:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15c28:	910003fd 	mov	x29, sp
    15c2c:	a9025bf5 	stp	x21, x22, [sp,#32]
@@ -21666,9 +21666,9 @@ Disassembly of section .text:
    15c68:	aa0103f8 	mov	x24, x1
    15c6c:	52800060 	mov	w0, #0x3                   	// #3
    15c70:	aa1703e1 	mov	x1, x23
-   15c74:	f90097a4 	str	x4, [x29,#296]
+   15c74:	f900a7a4 	str	x4, [x29,#328]
    15c78:	910163b5 	add	x21, x29, #0x58
-   15c7c:	910303b4 	add	x20, x29, #0xc0
+   15c7c:	910343b4 	add	x20, x29, #0xd0
    15c80:	97ffe834 	bl	fd50 <__android_log_print@plt>
    15c84:	aa1503e0 	mov	x0, x21
    15c88:	97ffe7de 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21703,7 +21703,7 @@ Disassembly of section .text:
    15cfc:	aa1503e0 	mov	x0, x21
    15d00:	97ffe7c4 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15d04:	f947bed6 	ldr	x22, [x22,#3960]
-   15d08:	f94097a2 	ldr	x2, [x29,#296]
+   15d08:	f940a7a2 	ldr	x2, [x29,#328]
    15d0c:	2a1303e0 	mov	w0, w19
    15d10:	f94002c1 	ldr	x1, [x22]
    15d14:	eb01005f 	cmp	x2, x1
@@ -21712,7 +21712,7 @@ Disassembly of section .text:
    15d20:	a9425bf5 	ldp	x21, x22, [sp,#32]
    15d24:	a94363f7 	ldp	x23, x24, [sp,#48]
    15d28:	f94023f9 	ldr	x25, [sp,#64]
-   15d2c:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   15d2c:	a8d57bfd 	ldp	x29, x30, [sp],#336
    15d30:	d65f03c0 	ret
    15d34:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15d38:	aa1703e1 	mov	x1, x23
@@ -21731,7 +21731,7 @@ Disassembly of section .text:
    15d6c:	97ffe7d9 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015d70 <_ZN13BpFingerPrint7getInfoEv@@Base>:
-   15d70:	a9af7bfd 	stp	x29, x30, [sp,#-272]!
+   15d70:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
    15d74:	900000c3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    15d78:	b00000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    15d7c:	910003fd 	mov	x29, sp
@@ -21748,8 +21748,8 @@ Disassembly of section .text:
    15da8:	a90153f3 	stp	x19, x20, [sp,#16]
    15dac:	f94002a4 	ldr	x4, [x21]
    15db0:	9100e3b4 	add	x20, x29, #0x38
-   15db4:	f90087a4 	str	x4, [x29,#264]
-   15db8:	910283b3 	add	x19, x29, #0xa0
+   15db4:	f90097a4 	str	x4, [x29,#296]
+   15db8:	9102c3b3 	add	x19, x29, #0xb0
    15dbc:	97ffe7e5 	bl	fd50 <__android_log_print@plt>
    15dc0:	aa1403e0 	mov	x0, x20
    15dc4:	97ffe78f 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21779,24 +21779,24 @@ Disassembly of section .text:
    15e24:	97ffe77b 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15e28:	aa1403e0 	mov	x0, x20
    15e2c:	97ffe779 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   15e30:	f94087a2 	ldr	x2, [x29,#264]
+   15e30:	f94097a2 	ldr	x2, [x29,#296]
    15e34:	aa1603e0 	mov	x0, x22
    15e38:	f94002a1 	ldr	x1, [x21]
    15e3c:	eb01005f 	cmp	x2, x1
    15e40:	540000a1 	b.ne	15e54 <_ZN13BpFingerPrint7getInfoEv@@Base+0xe4>
    15e44:	a94153f3 	ldp	x19, x20, [sp,#16]
    15e48:	a9425bf5 	ldp	x21, x22, [sp,#32]
-   15e4c:	a8d17bfd 	ldp	x29, x30, [sp],#272
+   15e4c:	a8d37bfd 	ldp	x29, x30, [sp],#304
    15e50:	d65f03c0 	ret
    15e54:	97ffe79f 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015e58 <_ZN13BpFingerPrint13getFpNameByIdEiPc@@Base>:
-   15e58:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
+   15e58:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
    15e5c:	2a0103e4 	mov	w4, w1
    15e60:	910003fd 	mov	x29, sp
    15e64:	a9025bf5 	stp	x21, x22, [sp,#32]
    15e68:	b00001b6 	adrp	x22, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
-   15e6c:	910343b5 	add	x21, x29, #0xd0
+   15e6c:	910383b5 	add	x21, x29, #0xe0
    15e70:	a90153f3 	stp	x19, x20, [sp,#16]
    15e74:	900000d3 	adrp	x19, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    15e78:	9101a3b4 	add	x20, x29, #0x68
@@ -21816,7 +21816,7 @@ Disassembly of section .text:
    15eb0:	2a0103f9 	mov	w25, w1
    15eb4:	52800060 	mov	w0, #0x3                   	// #3
    15eb8:	aa1703e1 	mov	x1, x23
-   15ebc:	f9009fa5 	str	x5, [x29,#312]
+   15ebc:	f900afa5 	str	x5, [x29,#344]
    15ec0:	97ffe7a4 	bl	fd50 <__android_log_print@plt>
    15ec4:	aa1403e0 	mov	x0, x20
    15ec8:	97ffe74e 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21853,7 +21853,7 @@ Disassembly of section .text:
    15f44:	aa1403e0 	mov	x0, x20
    15f48:	97ffe732 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    15f4c:	f947bed6 	ldr	x22, [x22,#3960]
-   15f50:	f9409fa2 	ldr	x2, [x29,#312]
+   15f50:	f940afa2 	ldr	x2, [x29,#344]
    15f54:	2a1803e0 	mov	w0, w24
    15f58:	f94002c1 	ldr	x1, [x22]
    15f5c:	eb01005f 	cmp	x2, x1
@@ -21862,7 +21862,7 @@ Disassembly of section .text:
    15f68:	a9425bf5 	ldp	x21, x22, [sp,#32]
    15f6c:	a94363f7 	ldp	x23, x24, [sp,#48]
    15f70:	a9446bf9 	ldp	x25, x26, [sp,#64]
-   15f74:	a8d47bfd 	ldp	x29, x30, [sp],#320
+   15f74:	a8d67bfd 	ldp	x29, x30, [sp],#352
    15f78:	d65f03c0 	ret
    15f7c:	aa1503e0 	mov	x0, x21
    15f80:	97ffe730 	bl	fc40 <_ZNK7android6Parcel11readCStringEv@plt>
@@ -21876,7 +21876,7 @@ Disassembly of section .text:
    15fa0:	97ffe74c 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000015fa4 <_ZN13BpFingerPrint12modifyFpNameEiPKc@@Base>:
-   15fa4:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   15fa4:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    15fa8:	910003fd 	mov	x29, sp
    15fac:	a9025bf5 	stp	x21, x22, [sp,#32]
    15fb0:	b00001b6 	adrp	x22, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -21897,12 +21897,12 @@ Disassembly of section .text:
    15fec:	2a0103fa 	mov	w26, w1
    15ff0:	52800060 	mov	w0, #0x3                   	// #3
    15ff4:	aa1703e1 	mov	x1, x23
-   15ff8:	f90097a4 	str	x4, [x29,#296]
+   15ff8:	f900a7a4 	str	x4, [x29,#328]
    15ffc:	a90153f3 	stp	x19, x20, [sp,#16]
    16000:	97ffe754 	bl	fd50 <__android_log_print@plt>
    16004:	910163b3 	add	x19, x29, #0x58
    16008:	aa1303e0 	mov	x0, x19
-   1600c:	910303b4 	add	x20, x29, #0xc0
+   1600c:	910343b4 	add	x20, x29, #0xd0
    16010:	97ffe6fc 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    16014:	aa1403e0 	mov	x0, x20
    16018:	97ffe6fa 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -21941,7 +21941,7 @@ Disassembly of section .text:
    1609c:	97ffe6dd 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    160a0:	aa1303e0 	mov	x0, x19
    160a4:	97ffe6db 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   160a8:	f94097a2 	ldr	x2, [x29,#296]
+   160a8:	f940a7a2 	ldr	x2, [x29,#328]
    160ac:	2a1803e0 	mov	w0, w24
    160b0:	f94002c1 	ldr	x1, [x22]
    160b4:	eb01005f 	cmp	x2, x1
@@ -21950,12 +21950,12 @@ Disassembly of section .text:
    160c0:	a9425bf5 	ldp	x21, x22, [sp,#32]
    160c4:	a94363f7 	ldp	x23, x24, [sp,#48]
    160c8:	a9446bf9 	ldp	x25, x26, [sp,#64]
-   160cc:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   160cc:	a8d57bfd 	ldp	x29, x30, [sp],#336
    160d0:	d65f03c0 	ret
    160d4:	97ffe6ff 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000160d8 <_ZN13BpFingerPrint9setPasswdEPKcS1_@@Base>:
-   160d8:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   160d8:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    160dc:	f00000a3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    160e0:	910003fd 	mov	x29, sp
    160e4:	a9025bf5 	stp	x21, x22, [sp,#32]
@@ -21973,12 +21973,12 @@ Disassembly of section .text:
    16114:	f94002a4 	ldr	x4, [x21]
    16118:	aa0003f6 	mov	x22, x0
    1611c:	52800060 	mov	w0, #0x3                   	// #3
-   16120:	f9008fa4 	str	x4, [x29,#280]
+   16120:	f9009fa4 	str	x4, [x29,#312]
    16124:	a90153f3 	stp	x19, x20, [sp,#16]
    16128:	97ffe70a 	bl	fd50 <__android_log_print@plt>
    1612c:	910123b3 	add	x19, x29, #0x48
    16130:	aa1303e0 	mov	x0, x19
-   16134:	9102c3b4 	add	x20, x29, #0xb0
+   16134:	910303b4 	add	x20, x29, #0xc0
    16138:	97ffe6b2 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    1613c:	aa1403e0 	mov	x0, x20
    16140:	97ffe6b0 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -22010,7 +22010,7 @@ Disassembly of section .text:
    161a8:	97ffe69a 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    161ac:	aa1303e0 	mov	x0, x19
    161b0:	97ffe698 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   161b4:	f9408fa2 	ldr	x2, [x29,#280]
+   161b4:	f9409fa2 	ldr	x2, [x29,#312]
    161b8:	2a1603e0 	mov	w0, w22
    161bc:	f94002a1 	ldr	x1, [x21]
    161c0:	eb01005f 	cmp	x2, x1
@@ -22018,12 +22018,12 @@ Disassembly of section .text:
    161c8:	a94153f3 	ldp	x19, x20, [sp,#16]
    161cc:	a9425bf5 	ldp	x21, x22, [sp,#32]
    161d0:	a94363f7 	ldp	x23, x24, [sp,#48]
-   161d4:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   161d4:	a8d47bfd 	ldp	x29, x30, [sp],#320
    161d8:	d65f03c0 	ret
    161dc:	97ffe6bd 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000161e0 <_ZN13BpFingerPrint17requestPermissionEPKc@@Base>:
-   161e0:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   161e0:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    161e4:	f00000a3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    161e8:	900000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    161ec:	910003fd 	mov	x29, sp
@@ -22040,12 +22040,12 @@ Disassembly of section .text:
    16218:	aa0003f6 	mov	x22, x0
    1621c:	52800060 	mov	w0, #0x3                   	// #3
    16220:	f94002a4 	ldr	x4, [x21]
-   16224:	f9008fa4 	str	x4, [x29,#280]
+   16224:	f9009fa4 	str	x4, [x29,#312]
    16228:	a90153f3 	stp	x19, x20, [sp,#16]
    1622c:	97ffe6c9 	bl	fd50 <__android_log_print@plt>
    16230:	910123b3 	add	x19, x29, #0x48
    16234:	aa1303e0 	mov	x0, x19
-   16238:	9102c3b4 	add	x20, x29, #0xb0
+   16238:	910303b4 	add	x20, x29, #0xc0
    1623c:	97ffe671 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    16240:	aa1403e0 	mov	x0, x20
    16244:	97ffe66f 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -22074,7 +22074,7 @@ Disassembly of section .text:
    162a0:	97ffe65c 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    162a4:	aa1303e0 	mov	x0, x19
    162a8:	97ffe65a 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   162ac:	f9408fa2 	ldr	x2, [x29,#280]
+   162ac:	f9409fa2 	ldr	x2, [x29,#312]
    162b0:	2a1603e0 	mov	w0, w22
    162b4:	f94002a1 	ldr	x1, [x21]
    162b8:	eb01005f 	cmp	x2, x1
@@ -22082,12 +22082,12 @@ Disassembly of section .text:
    162c0:	a94153f3 	ldp	x19, x20, [sp,#16]
    162c4:	a9425bf5 	ldp	x21, x22, [sp,#32]
    162c8:	f9401bf7 	ldr	x23, [sp,#48]
-   162cc:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   162cc:	a8d47bfd 	ldp	x29, x30, [sp],#320
    162d0:	d65f03c0 	ret
    162d4:	97ffe67f 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000162d8 <_ZN13BpFingerPrint12saveRegisterEmPm@@Base>:
-   162d8:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   162d8:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    162dc:	910003fd 	mov	x29, sp
    162e0:	a9025bf5 	stp	x21, x22, [sp,#32]
    162e4:	900001b5 	adrp	x21, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -22098,10 +22098,10 @@ Disassembly of section .text:
    162f8:	910123b3 	add	x19, x29, #0x48
    162fc:	aa0103f8 	mov	x24, x1
    16300:	aa1303e0 	mov	x0, x19
-   16304:	9102c3b4 	add	x20, x29, #0xb0
+   16304:	910303b4 	add	x20, x29, #0xc0
    16308:	aa0203f7 	mov	x23, x2
    1630c:	f94002a1 	ldr	x1, [x21]
-   16310:	f9008fa1 	str	x1, [x29,#280]
+   16310:	f9009fa1 	str	x1, [x29,#312]
    16314:	97ffe63b 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    16318:	aa1403e0 	mov	x0, x20
    1631c:	97ffe639 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -22140,7 +22140,7 @@ Disassembly of section .text:
    163a0:	97ffe61c 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    163a4:	aa1303e0 	mov	x0, x19
    163a8:	97ffe61a 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   163ac:	f9408fa2 	ldr	x2, [x29,#280]
+   163ac:	f9409fa2 	ldr	x2, [x29,#312]
    163b0:	2a1603e0 	mov	w0, w22
    163b4:	f94002a1 	ldr	x1, [x21]
    163b8:	eb01005f 	cmp	x2, x1
@@ -22148,12 +22148,12 @@ Disassembly of section .text:
    163c0:	a94153f3 	ldp	x19, x20, [sp,#16]
    163c4:	a9425bf5 	ldp	x21, x22, [sp,#32]
    163c8:	a94363f7 	ldp	x23, x24, [sp,#48]
-   163cc:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   163cc:	a8d47bfd 	ldp	x29, x30, [sp],#320
    163d0:	d65f03c0 	ret
    163d4:	97ffe63f 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000163d8 <_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi@@Base>:
-   163d8:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
+   163d8:	a9a97bfd 	stp	x29, x30, [sp,#-368]!
    163dc:	910003fd 	mov	x29, sp
    163e0:	a9025bf5 	stp	x21, x22, [sp,#32]
    163e4:	900001b5 	adrp	x21, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -22176,12 +22176,12 @@ Disassembly of section .text:
    16428:	52800060 	mov	w0, #0x3                   	// #3
    1642c:	aa0403f9 	mov	x25, x4
    16430:	aa0503f8 	mov	x24, x5
-   16434:	f900a7a6 	str	x6, [x29,#328]
+   16434:	f900b7a6 	str	x6, [x29,#360]
    16438:	a90153f3 	stp	x19, x20, [sp,#16]
    1643c:	97ffe645 	bl	fd50 <__android_log_print@plt>
    16440:	9101e3b4 	add	x20, x29, #0x78
    16444:	aa1403e0 	mov	x0, x20
-   16448:	910383b3 	add	x19, x29, #0xe0
+   16448:	9103c3b3 	add	x19, x29, #0xf0
    1644c:	97ffe5ed 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    16450:	aa1303e0 	mov	x0, x19
    16454:	97ffe5eb 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -22222,7 +22222,7 @@ Disassembly of section .text:
    164e0:	aa1403e0 	mov	x0, x20
    164e4:	97ffe5cb 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    164e8:	f947beb5 	ldr	x21, [x21,#3960]
-   164ec:	f940a7a2 	ldr	x2, [x29,#328]
+   164ec:	f940b7a2 	ldr	x2, [x29,#360]
    164f0:	2a1703e0 	mov	w0, w23
    164f4:	f94002a1 	ldr	x1, [x21]
    164f8:	eb01005f 	cmp	x2, x1
@@ -22232,7 +22232,7 @@ Disassembly of section .text:
    16508:	a94363f7 	ldp	x23, x24, [sp,#48]
    1650c:	a9446bf9 	ldp	x25, x26, [sp,#64]
    16510:	f9402bfb 	ldr	x27, [sp,#80]
-   16514:	a8d57bfd 	ldp	x29, x30, [sp],#336
+   16514:	a8d77bfd 	ldp	x29, x30, [sp],#368
    16518:	d65f03c0 	ret
    1651c:	aa1403e0 	mov	x0, x20
    16520:	aa1b03e1 	mov	x1, x27
@@ -22257,7 +22257,7 @@ Disassembly of section .text:
    1656c:	97ffe5d9 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000016570 <_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE@@Base>:
-   16570:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   16570:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    16574:	f00000a3 	adrp	x3, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    16578:	900000c2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    1657c:	910003fd 	mov	x29, sp
@@ -22275,12 +22275,12 @@ Disassembly of section .text:
    165ac:	52800060 	mov	w0, #0x3                   	// #3
    165b0:	f9400084 	ldr	x4, [x4]
    165b4:	910123b7 	add	x23, x29, #0x48
-   165b8:	f90097a4 	str	x4, [x29,#296]
+   165b8:	f900a7a4 	str	x4, [x29,#328]
    165bc:	a90153f3 	stp	x19, x20, [sp,#16]
    165c0:	97ffe5e4 	bl	fd50 <__android_log_print@plt>
    165c4:	910163b3 	add	x19, x29, #0x58
    165c8:	aa1303e0 	mov	x0, x19
-   165cc:	910303b4 	add	x20, x29, #0xc0
+   165cc:	910343b4 	add	x20, x29, #0xd0
    165d0:	97ffe58c 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    165d4:	aa1403e0 	mov	x0, x20
    165d8:	97ffe58a 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -22337,7 +22337,7 @@ Disassembly of section .text:
    166a4:	aa1303e0 	mov	x0, x19
    166a8:	97ffe55a 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    166ac:	f947beb5 	ldr	x21, [x21,#3960]
-   166b0:	f94097a2 	ldr	x2, [x29,#296]
+   166b0:	f940a7a2 	ldr	x2, [x29,#328]
    166b4:	2a1603e0 	mov	w0, w22
    166b8:	f94002a1 	ldr	x1, [x21]
    166bc:	eb01005f 	cmp	x2, x1
@@ -22345,7 +22345,7 @@ Disassembly of section .text:
    166c4:	a94153f3 	ldp	x19, x20, [sp,#16]
    166c8:	a9425bf5 	ldp	x21, x22, [sp,#32]
    166cc:	a94363f7 	ldp	x23, x24, [sp,#48]
-   166d0:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   166d0:	a8d57bfd 	ldp	x29, x30, [sp],#336
    166d4:	d65f03c0 	ret
    166d8:	97ffe57e 	bl	fcd0 <__stack_chk_fail@plt>
 
@@ -24018,7 +24018,7 @@ Disassembly of section .text:
    180c8:	17ffffd8 	b	18028 <_ZN7android11BnInterfaceINS_12IFingerPrintEE19queryLocalInterfaceERKNS_8String16E@@Base>
 
 00000000000180cc <_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc@@Base>:
-   180cc:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
+   180cc:	a9a97bfd 	stp	x29, x30, [sp,#-368]!
    180d0:	b00000a4 	adrp	x4, 2d000 <_Unwind_Find_FDE@@Base+0x49c>
    180d4:	910003fd 	mov	x29, sp
    180d8:	a9046bf9 	stp	x25, x26, [sp,#64]
@@ -24041,7 +24041,7 @@ Disassembly of section .text:
    1811c:	52800060 	mov	w0, #0x3                   	// #3
    18120:	aa1803e1 	mov	x1, x24
    18124:	aa1903e3 	mov	x3, x25
-   18128:	f900a7a4 	str	x4, [x29,#328]
+   18128:	f900b7a4 	str	x4, [x29,#360]
    1812c:	97ffdf09 	bl	fd50 <__android_log_print@plt>
    18130:	eb1f039f 	cmp	x28, xzr
    18134:	1a9f17e1 	cset	w1, eq
@@ -24051,7 +24051,7 @@ Disassembly of section .text:
    18144:	35000be0 	cbnz	w0, 182c0 <_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc@@Base+0x1f4>
    18148:	b4000bd5 	cbz	x21, 182c0 <_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc@@Base+0x1f4>
    1814c:	9101e3b7 	add	x23, x29, #0x78
-   18150:	910383b3 	add	x19, x29, #0xe0
+   18150:	9103c3b3 	add	x19, x29, #0xf0
    18154:	aa1703e0 	mov	x0, x23
    18158:	97ffdeaa 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    1815c:	aa1303e0 	mov	x0, x19
@@ -24095,7 +24095,7 @@ Disassembly of section .text:
    181f4:	97ffde87 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    181f8:	2a1603e0 	mov	w0, w22
    181fc:	f947bf53 	ldr	x19, [x26,#3960]
-   18200:	f940a7a2 	ldr	x2, [x29,#328]
+   18200:	f940b7a2 	ldr	x2, [x29,#360]
    18204:	f9400261 	ldr	x1, [x19]
    18208:	eb01005f 	cmp	x2, x1
    1820c:	540006c1 	b.ne	182e4 <_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc@@Base+0x218>
@@ -24104,7 +24104,7 @@ Disassembly of section .text:
    18218:	a94363f7 	ldp	x23, x24, [sp,#48]
    1821c:	a9446bf9 	ldp	x25, x26, [sp,#64]
    18220:	a94573fb 	ldp	x27, x28, [sp,#80]
-   18224:	a8d57bfd 	ldp	x29, x30, [sp],#336
+   18224:	a8d77bfd 	ldp	x29, x30, [sp],#368
    18228:	d65f03c0 	ret
    1822c:	aa1303e0 	mov	x0, x19
    18230:	97ffdef0 	bl	fdf0 <_ZNK7android6Parcel9readInt32Ev@plt>
@@ -24430,7 +24430,7 @@ Disassembly of section .text:
    186b0:	d65f03c0 	ret
 
 00000000000186b4 <_ZN19BpFingerPrintClient12dataCallbackEiiPc@@Base>:
-   186b4:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
+   186b4:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
    186b8:	2a0103e4 	mov	w4, w1
    186bc:	910003fd 	mov	x29, sp
    186c0:	a90153f3 	stp	x19, x20, [sp,#16]
@@ -24455,8 +24455,8 @@ Disassembly of section .text:
    1870c:	aa1603e1 	mov	x1, x22
    18710:	aa1503e3 	mov	x3, x21
    18714:	52800060 	mov	w0, #0x3                   	// #3
-   18718:	f9009fa5 	str	x5, [x29,#312]
-   1871c:	910343b7 	add	x23, x29, #0xd0
+   18718:	f900afa5 	str	x5, [x29,#344]
+   1871c:	910383b7 	add	x23, x29, #0xe0
    18720:	97ffdd8c 	bl	fd50 <__android_log_print@plt>
    18724:	aa1303e0 	mov	x0, x19
    18728:	97ffdd36 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -24492,7 +24492,7 @@ Disassembly of section .text:
    187a0:	aa1303e0 	mov	x0, x19
    187a4:	97ffdd1b 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    187a8:	f947be94 	ldr	x20, [x20,#3960]
-   187ac:	f9409fa1 	ldr	x1, [x29,#312]
+   187ac:	f940afa1 	ldr	x1, [x29,#344]
    187b0:	f9400280 	ldr	x0, [x20]
    187b4:	eb00003f 	cmp	x1, x0
    187b8:	540001e1 	b.ne	187f4 <_ZN19BpFingerPrintClient12dataCallbackEiiPc@@Base+0x140>
@@ -24501,7 +24501,7 @@ Disassembly of section .text:
    187c4:	a94363f7 	ldp	x23, x24, [sp,#48]
    187c8:	a9446bf9 	ldp	x25, x26, [sp,#64]
    187cc:	f9402bfb 	ldr	x27, [sp,#80]
-   187d0:	a8d47bfd 	ldp	x29, x30, [sp],#320
+   187d0:	a8d67bfd 	ldp	x29, x30, [sp],#352
    187d4:	d65f03c0 	ret
    187d8:	d00000a2 	adrp	x2, 2e000 <_Unwind_Find_FDE@@Base+0x149c>
    187dc:	aa1603e1 	mov	x1, x22
@@ -24513,7 +24513,7 @@ Disassembly of section .text:
    187f4:	97ffdd37 	bl	fcd0 <__stack_chk_fail@plt>
 
 00000000000187f8 <_ZN19BpFingerPrintClient14notifyCallbackEiii@@Base>:
-   187f8:	a9ad7bfd 	stp	x29, x30, [sp,#-304]!
+   187f8:	a9ab7bfd 	stp	x29, x30, [sp,#-336]!
    187fc:	910003fd 	mov	x29, sp
    18800:	a9025bf5 	stp	x21, x22, [sp,#32]
    18804:	d0000195 	adrp	x21, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
@@ -24533,12 +24533,12 @@ Disassembly of section .text:
    1883c:	91050021 	add	x1, x1, #0x140
    18840:	aa0003f6 	mov	x22, x0
    18844:	52800060 	mov	w0, #0x3                   	// #3
-   18848:	f90097a4 	str	x4, [x29,#296]
+   18848:	f900a7a4 	str	x4, [x29,#328]
    1884c:	a90153f3 	stp	x19, x20, [sp,#16]
    18850:	97ffdd40 	bl	fd50 <__android_log_print@plt>
    18854:	910163b3 	add	x19, x29, #0x58
    18858:	aa1303e0 	mov	x0, x19
-   1885c:	910303b4 	add	x20, x29, #0xc0
+   1885c:	910343b4 	add	x20, x29, #0xd0
    18860:	97ffdce8 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
    18864:	aa1403e0 	mov	x0, x20
    18868:	97ffdce6 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -24568,7 +24568,7 @@ Disassembly of section .text:
    188c8:	97ffdcd2 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    188cc:	aa1303e0 	mov	x0, x19
    188d0:	97ffdcd0 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   188d4:	f94097a1 	ldr	x1, [x29,#296]
+   188d4:	f940a7a1 	ldr	x1, [x29,#328]
    188d8:	f94002a0 	ldr	x0, [x21]
    188dc:	eb00003f 	cmp	x1, x0
    188e0:	540000e1 	b.ne	188fc <_ZN19BpFingerPrintClient14notifyCallbackEiii@@Base+0x104>
@@ -24576,7 +24576,7 @@ Disassembly of section .text:
    188e8:	a9425bf5 	ldp	x21, x22, [sp,#32]
    188ec:	a94363f7 	ldp	x23, x24, [sp,#48]
    188f0:	f94023f9 	ldr	x25, [sp,#64]
-   188f4:	a8d37bfd 	ldp	x29, x30, [sp],#304
+   188f4:	a8d57bfd 	ldp	x29, x30, [sp],#336
    188f8:	d65f03c0 	ret
    188fc:	97ffdcf5 	bl	fcd0 <__stack_chk_fail@plt>
 
@@ -24967,11 +24967,11 @@ Disassembly of section .text:
    18e5c:	d65f03c0 	ret
 
 0000000000018e60 <_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi@@Base>:
-   18e60:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
+   18e60:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
    18e64:	910003fd 	mov	x29, sp
    18e68:	a9025bf5 	stp	x21, x22, [sp,#32]
    18e6c:	d0000196 	adrp	x22, 4a000 <_ZTVN7android19IFingerPrintServiceE@@Base+0x60>
-   18e70:	910343b5 	add	x21, x29, #0xd0
+   18e70:	910383b5 	add	x21, x29, #0xe0
    18e74:	a90153f3 	stp	x19, x20, [sp,#16]
    18e78:	aa0103f4 	mov	x20, x1
    18e7c:	9101a3b3 	add	x19, x29, #0x68
@@ -24981,7 +24981,7 @@ Disassembly of section .text:
    18e8c:	aa1303e0 	mov	x0, x19
    18e90:	f9400021 	ldr	x1, [x1]
    18e94:	2a0203fa 	mov	w26, w2
-   18e98:	f9009fa1 	str	x1, [x29,#312]
+   18e98:	f900afa1 	str	x1, [x29,#344]
    18e9c:	a90363f7 	stp	x23, x24, [sp,#48]
    18ea0:	aa0803f8 	mov	x24, x8
    18ea4:	97ffdb57 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -25053,7 +25053,7 @@ Disassembly of section .text:
    18fac:	aa1303e0 	mov	x0, x19
    18fb0:	97ffdb18 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    18fb4:	f947bed6 	ldr	x22, [x22,#3960]
-   18fb8:	f9409fa2 	ldr	x2, [x29,#312]
+   18fb8:	f940afa2 	ldr	x2, [x29,#344]
    18fbc:	aa1803e0 	mov	x0, x24
    18fc0:	f94002c1 	ldr	x1, [x22]
    18fc4:	eb01005f 	cmp	x2, x1
@@ -25062,12 +25062,12 @@ Disassembly of section .text:
    18fd0:	a9425bf5 	ldp	x21, x22, [sp,#32]
    18fd4:	a94363f7 	ldp	x23, x24, [sp,#48]
    18fd8:	a9446bf9 	ldp	x25, x26, [sp,#64]
-   18fdc:	a8d47bfd 	ldp	x29, x30, [sp],#320
+   18fdc:	a8d67bfd 	ldp	x29, x30, [sp],#352
    18fe0:	d65f03c0 	ret
    18fe4:	97ffdb3b 	bl	fcd0 <__stack_chk_fail@plt>
 
 0000000000018fe8 <_ZN20BpFingerPrintService5checkEi@@Base>:
-   18fe8:	a9ae7bfd 	stp	x29, x30, [sp,#-288]!
+   18fe8:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
    18fec:	f00000a2 	adrp	x2, 2f000 <_Unwind_Find_FDE@@Base+0x249c>
    18ff0:	f00000a3 	adrp	x3, 2f000 <_Unwind_Find_FDE@@Base+0x249c>
    18ff4:	910003fd 	mov	x29, sp
@@ -25085,8 +25085,8 @@ Disassembly of section .text:
    19024:	a90153f3 	stp	x19, x20, [sp,#16]
    19028:	f94002a4 	ldr	x4, [x21]
    1902c:	910123b3 	add	x19, x29, #0x48
-   19030:	f9008fa4 	str	x4, [x29,#280]
-   19034:	9102c3b4 	add	x20, x29, #0xb0
+   19030:	f9009fa4 	str	x4, [x29,#312]
+   19034:	910303b4 	add	x20, x29, #0xc0
    19038:	97ffdb46 	bl	fd50 <__android_log_print@plt>
    1903c:	aa1303e0 	mov	x0, x19
    19040:	97ffdaf0 	bl	fc00 <_ZN7android6ParcelC1Ev@plt>
@@ -25117,7 +25117,7 @@ Disassembly of section .text:
    190a4:	97ffdadb 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
    190a8:	aa1303e0 	mov	x0, x19
    190ac:	97ffdad9 	bl	fc10 <_ZN7android6ParcelD1Ev@plt>
-   190b0:	f9408fa2 	ldr	x2, [x29,#280]
+   190b0:	f9409fa2 	ldr	x2, [x29,#312]
    190b4:	2a1603e0 	mov	w0, w22
    190b8:	f94002a1 	ldr	x1, [x21]
    190bc:	eb01005f 	cmp	x2, x1
@@ -25125,7 +25125,7 @@ Disassembly of section .text:
    190c4:	a94153f3 	ldp	x19, x20, [sp,#16]
    190c8:	a9425bf5 	ldp	x21, x22, [sp,#32]
    190cc:	f9401bf7 	ldr	x23, [sp,#48]
-   190d0:	a8d27bfd 	ldp	x29, x30, [sp],#288
+   190d0:	a8d47bfd 	ldp	x29, x30, [sp],#320
    190d4:	d65f03c0 	ret
    190d8:	97ffdafe 	bl	fcd0 <__stack_chk_fail@plt>
 

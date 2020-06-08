@@ -1,5 +1,5 @@
 
-fingerprint.default.so:     file format elf64-littleaarch64
+fingerprint.default.so.1:     file format elf64-littleaarch64
 
 
 Disassembly of section .note.gnu.build-id:
@@ -12741,7 +12741,7 @@ Disassembly of section .text:
     cc5c:	97ffeadd 	bl	77d0 <__stack_chk_fail@plt>
 
 000000000000cc60 <_Z20getFrameworkFingerIDPii@@Base>:
-    cc60:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
+    cc60:	a9a87bfd 	stp	x29, x30, [sp,#-384]!
     cc64:	910003fd 	mov	x29, sp
     cc68:	a90363f7 	stp	x23, x24, [sp,#48]
     cc6c:	a9046bf9 	stp	x25, x26, [sp,#64]
@@ -12756,7 +12756,7 @@ Disassembly of section .text:
     cc90:	f9400022 	ldr	x2, [x1]
     cc94:	f9400001 	ldr	x1, [x0]
     cc98:	a90573fb 	stp	x27, x28, [sp,#80]
-    cc9c:	f900afa2 	str	x2, [x29,#344]
+    cc9c:	f900bfa2 	str	x2, [x29,#376]
     cca0:	b4001201 	cbz	x1, cee0 <_Z20getFrameworkFingerIDPii@@Base+0x280>
     cca4:	b0000160 	adrp	x0, 39000 <_ZTSN10__cxxabiv117__class_type_infoE@@Base+0x15ca0>
     cca8:	f9478000 	ldr	x0, [x0,#3840]
@@ -12773,7 +12773,7 @@ Disassembly of section .text:
     ccd4:	aa1b03e1 	mov	x1, x27
     ccd8:	52800060 	mov	w0, #0x3                   	// #3
     ccdc:	910223b9 	add	x25, x29, #0x88
-    cce0:	9103c3b3 	add	x19, x29, #0xf0
+    cce0:	910403b3 	add	x19, x29, #0x100
     cce4:	97ffeadf 	bl	7860 <__android_log_print@plt>
     cce8:	910203b5 	add	x21, x29, #0x80
     ccec:	aa1903e0 	mov	x0, x25
@@ -12884,7 +12884,7 @@ Disassembly of section .text:
     ce90:	97ffea18 	bl	76f0 <_ZN7android6ParcelD1Ev@plt>
     ce94:	2a1803e0 	mov	w0, w24
     ce98:	f947cf5a 	ldr	x26, [x26,#3992]
-    ce9c:	f940afa2 	ldr	x2, [x29,#344]
+    ce9c:	f940bfa2 	ldr	x2, [x29,#376]
     cea0:	f9400341 	ldr	x1, [x26]
     cea4:	eb01005f 	cmp	x2, x1
     cea8:	540003e1 	b.ne	cf24 <_Z20getFrameworkFingerIDPii@@Base+0x2c4>
@@ -12893,7 +12893,7 @@ Disassembly of section .text:
     ceb4:	a94363f7 	ldp	x23, x24, [sp,#48]
     ceb8:	a9446bf9 	ldp	x25, x26, [sp,#64]
     cebc:	a94573fb 	ldp	x27, x28, [sp,#80]
-    cec0:	a8d67bfd 	ldp	x29, x30, [sp],#352
+    cec0:	a8d87bfd 	ldp	x29, x30, [sp],#384
     cec4:	d65f03c0 	ret
     cec8:	aa1303e0 	mov	x0, x19
     cecc:	aa1503e8 	mov	x8, x21
@@ -12901,14 +12901,14 @@ Disassembly of section .text:
     ced4:	aa1503e0 	mov	x0, x21
     ced8:	97ffeac6 	bl	79f0 <_ZN7android8String16D1Ev@plt>
     cedc:	17ffffbd 	b	cdd0 <_Z20getFrameworkFingerIDPii@@Base+0x170>
-    cee0:	9103c3b3 	add	x19, x29, #0xf0
+    cee0:	910403b3 	add	x19, x29, #0x100
     cee4:	f90037a0 	str	x0, [x29,#104]
     cee8:	aa1303e8 	mov	x8, x19
     ceec:	97fffea9 	bl	c990 <_ZN7android2spINS_7IBinderEEaSERKS2_@@Base+0x5c>
     cef0:	f94037a0 	ldr	x0, [x29,#104]
     cef4:	aa1303e1 	mov	x1, x19
     cef8:	97fffe8f 	bl	c934 <_ZN7android2spINS_7IBinderEEaSERKS2_@@Base>
-    cefc:	f9407ba0 	ldr	x0, [x29,#240]
+    cefc:	f94083a0 	ldr	x0, [x29,#256]
     cf00:	b4ffed20 	cbz	x0, cca4 <_Z20getFrameworkFingerIDPii@@Base+0x44>
     cf04:	f9400002 	ldr	x2, [x0]
     cf08:	aa1303e1 	mov	x1, x19
@@ -13057,7 +13057,7 @@ Disassembly of section .text:
     d13c:	97ffe9a5 	bl	77d0 <__stack_chk_fail@plt>
 
 000000000000d140 <_Z26removeSettingFingerprintIdii@@Base>:
-    d140:	a9ac7bfd 	stp	x29, x30, [sp,#-320]!
+    d140:	a9aa7bfd 	stp	x29, x30, [sp,#-352]!
     d144:	910003fd 	mov	x29, sp
     d148:	a90363f7 	stp	x23, x24, [sp,#48]
     d14c:	a90153f3 	stp	x19, x20, [sp,#16]
@@ -13071,7 +13071,7 @@ Disassembly of section .text:
     d16c:	a9025bf5 	stp	x21, x22, [sp,#32]
     d170:	f9400022 	ldr	x2, [x1]
     d174:	f9400001 	ldr	x1, [x0]
-    d178:	f9009fa2 	str	x2, [x29,#312]
+    d178:	f900afa2 	str	x2, [x29,#344]
     d17c:	b40008a1 	cbz	x1, d290 <_Z26removeSettingFingerprintIdii@@Base+0x150>
     d180:	90000160 	adrp	x0, 39000 <_ZTSN10__cxxabiv117__class_type_infoE@@Base+0x15ca0>
     d184:	f9478000 	ldr	x0, [x0,#3840]
@@ -13086,7 +13086,7 @@ Disassembly of section .text:
     d1a8:	91210021 	add	x1, x1, #0x840
     d1ac:	52800060 	mov	w0, #0x3                   	// #3
     d1b0:	9101a3b3 	add	x19, x29, #0x68
-    d1b4:	910343b5 	add	x21, x29, #0xd0
+    d1b4:	910383b5 	add	x21, x29, #0xe0
     d1b8:	97ffe9aa 	bl	7860 <__android_log_print@plt>
     d1bc:	910183b6 	add	x22, x29, #0x60
     d1c0:	aa1303e0 	mov	x0, x19
@@ -13131,7 +13131,7 @@ Disassembly of section .text:
     d25c:	97ffe925 	bl	76f0 <_ZN7android6ParcelD1Ev@plt>
     d260:	f947ce94 	ldr	x20, [x20,#3992]
     d264:	52800000 	mov	w0, #0x0                   	// #0
-    d268:	f9409fa2 	ldr	x2, [x29,#312]
+    d268:	f940afa2 	ldr	x2, [x29,#344]
     d26c:	f9400281 	ldr	x1, [x20]
     d270:	eb01005f 	cmp	x2, x1
     d274:	540002c1 	b.ne	d2cc <_Z26removeSettingFingerprintIdii@@Base+0x18c>
@@ -13139,16 +13139,16 @@ Disassembly of section .text:
     d27c:	a9425bf5 	ldp	x21, x22, [sp,#32]
     d280:	a94363f7 	ldp	x23, x24, [sp,#48]
     d284:	f94023f9 	ldr	x25, [sp,#64]
-    d288:	a8d47bfd 	ldp	x29, x30, [sp],#320
+    d288:	a8d67bfd 	ldp	x29, x30, [sp],#352
     d28c:	d65f03c0 	ret
-    d290:	910343b3 	add	x19, x29, #0xd0
+    d290:	910383b3 	add	x19, x29, #0xe0
     d294:	f9002fa0 	str	x0, [x29,#88]
     d298:	aa1303e8 	mov	x8, x19
     d29c:	97fffdbd 	bl	c990 <_ZN7android2spINS_7IBinderEEaSERKS2_@@Base+0x5c>
     d2a0:	f9402fa0 	ldr	x0, [x29,#88]
     d2a4:	aa1303e1 	mov	x1, x19
     d2a8:	97fffda3 	bl	c934 <_ZN7android2spINS_7IBinderEEaSERKS2_@@Base>
-    d2ac:	f9406ba0 	ldr	x0, [x29,#208]
+    d2ac:	f94073a0 	ldr	x0, [x29,#224]
     d2b0:	b4fff680 	cbz	x0, d180 <_Z26removeSettingFingerprintIdii@@Base+0x40>
     d2b4:	f9400002 	ldr	x2, [x0]
     d2b8:	aa1303e1 	mov	x1, x19
